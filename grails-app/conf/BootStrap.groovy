@@ -23,7 +23,6 @@ class BootStrap {
         def user = new User(username: "User", passwordHash: new Sha512Hash("password").toHex())
         user.addToRoles(userRole)
         user.save()
-              
     }
 
    

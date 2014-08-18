@@ -39,12 +39,12 @@ class SignupController {
                         passwordHash: new Sha512Hash(params.password).toHex()
                 )
 
-                if (user.save()) {
+                if (user.save(flush:true)) {
 
                     // Add USER role to new user
                     def userRole =  Role.findByName('User')
                     user.addToRoles(userRole)
-                    user.save()
+                    user.save(flush:true)
 
                     // Login user
                     def authToken = new UsernamePasswordToken(user.username, params.password)
