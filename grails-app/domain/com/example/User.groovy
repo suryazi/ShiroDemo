@@ -3,6 +3,7 @@ package com.example
 class User {
     String username
     String passwordHash
+    byte[] passwordSalt
     
     static hasMany = [ roles: Role, permissions: String ]
 
