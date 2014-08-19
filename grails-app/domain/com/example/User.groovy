@@ -5,7 +5,7 @@ class User {
     String passwordHash
     byte[] passwordSalt
     
-    static hasMany = [ roles: Role, permissions: String ]
+    static hasMany = [ roles: Role, permissions: Permission ]
 
     static constraints = {
         username(nullable: false, blank: false, unique: true)

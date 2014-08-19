@@ -71,7 +71,7 @@ class DbRealm {
         // First find all the permissions that the user has that match
         // the required permission's type and project code.
         def user = User.findByUsername(principal)
-        def permissions = user.permissions
+        def permissions = user.permissions.acl
 
         // Try each of the permissions found and see whether any of
         // them confer the required permission.
@@ -99,7 +99,8 @@ class DbRealm {
         // If not, does he gain it through a role?
         //
         // Get the permissions from the roles that the user does have.
-        def results = User.executeQuery("select distinct p from User as user join user.roles as role join role.permissions as p where user.username = '$principal'")
+        //def results = User.executeQuery("select distinct p from User as user join user.roles as role join role.permissions as p where user.username = '$principal'")
+        def results = User.executeQuery("select p.acl from User as user join user.roles as role join role.permissions as p where user.username = '$principal'")
 
         // There may be some duplicate entries in the results, but
         // at this stage it is not worth trying to remove them. Now,

@@ -1,5 +1,6 @@
 import com.example.Role
 import com.example.User
+import com.example.Permission
 import org.apache.shiro.crypto.hash.Sha512Hash
 import org.apache.shiro.crypto.RandomNumberGenerator
 import org.apache.shiro.crypto.SecureRandomNumberGenerator
@@ -10,12 +11,17 @@ class BootStrap {
    
     def init = { servletContext ->
    
+        def permissions =  new Permission(acl:"*:*")
+        permissions.save()
+        
         def adminRole = new Role(name: "Administrator")
-        adminRole.addToPermissions("*:*")
+        adminRole.addToPermissions(permissions)
         adminRole.save()
        
+        permissions = new Permission(acl:"Home:index")
+        permissions.save()
         def userRole = new Role(name:"User")
-        userRole.addToPermissions("Home:index")
+        userRole.addToPermissions(permissions)
         userRole.save()
        
         def passwordSalt = new SecureRandomNumberGenerator().nextBytes().getBytes()
