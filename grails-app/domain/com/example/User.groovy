@@ -9,5 +9,7 @@ class User {
 
     static constraints = {
         username(nullable: false, blank: false, unique: true)
+        passwordHash(nullable: false, blank: false)
+        passwordSalt(nullable: false, blank: false)
     }
 }
