@@ -7,6 +7,7 @@
 </head>
 
 <body>
+  
   <h1>Sign Up</h1>
   
   <g:if test="${flash.message}">
