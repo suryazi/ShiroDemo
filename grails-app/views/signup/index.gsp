@@ -7,41 +7,28 @@
 </head>
 
 <body>
-  
-  <h1>Sign Up</h1>
-  
-  <g:if test="${flash.message}">
-    <div class="message">${flash.message}</div>
-  </g:if>
+    <div class="container">
+      
+      <g:if test="${flash.message}">
+        <div class="message">${flash.message}</div>
+      </g:if>
 
-  <g:hasErrors bean="${user}">
-    <div class="alert alert-error">
-        <g:renderErrors bean="${user}" as="list"/>
+      <g:hasErrors bean="${user}">
+        <div class="alert alert-error">
+            <g:renderErrors bean="${user}" as="list"/>
+        </div>
+      </g:hasErrors>
+
+      <form class="form-signin" role="form" action="register">
+        <label for="username">User Name:</label>
+        <input type="email" class="form-control" placeholder="Email address" name="username" value="${username}" required autofocus>
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" placeholder="Password" name="password" value="" required>
+        <label for="password2">Confirm Password:</label>
+        <input type="password" class="form-control" placeholder="Confirm Password" name="password2" value="" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+      <form>
     </div>
-  </g:hasErrors>
-
-  <g:form action="register">
-    <table>
-      <tbody>
-        <tr>
-          <td>Username:</td>
-          <td><input type="text" name="username" value="${username}" /></td>
-        </tr>
-        <tr>
-          <td>Password:</td>
-          <td><input type="password" name="password" value="" /></td>
-        </tr>
-        <tr>
-          <td>Confirm Password:</td>
-          <td><input type="password" name="password2" value="" /></td>
-        </tr>
-        <tr>
-          <td />
-          <td><input type="submit" value="Sign up" /></td>
-        </tr>
-      </tbody>
-    </table>
-  </g:form>
 </body>
 
 </html>
