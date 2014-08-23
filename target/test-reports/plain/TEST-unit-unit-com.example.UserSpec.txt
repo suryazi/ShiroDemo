@@ -1,0 +1,19 @@
+Testsuite: com.example.UserSpec
+Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 5.447 sec
+------------- Standard Output ---------------
+--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is unique--
+--Output from test User all constraints username is valid--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is unique--
+--Output from test User all constraints username is valid--
+------------- ---------------- ---------------
+
+Testcase: test User all constraints username is nullable took 3.86 sec
+Testcase: test User all constraints username is nullable took 0.077 sec
+Testcase: test User all constraints username is unique took 1.394 sec
+Testcase: test User all constraints username is valid took 0.051 sec

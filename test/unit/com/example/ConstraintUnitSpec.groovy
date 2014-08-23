@@ -1,6 +1,6 @@
 package com.example
 
-/import grails.test.mixin.TestMixin
+//import grails.test.mixin.TestMixin
 //import grails.test.mixin.support.GrailsUnitTestMixin
 import spock.lang.Specification
 

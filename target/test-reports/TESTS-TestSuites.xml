@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Dell" id="0" name="UserSpec" package="com.example" tests="4" time="5.447" timestamp="2014-08-23T06:58:57">
+      <properties />
+
+      <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="3.86" />
+
+      <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.077" />
+
+      <testcase classname="com.example.UserSpec" name="test User all constraints username is unique" time="1.394" />
+
+      <testcase classname="com.example.UserSpec" name="test User all constraints username is valid" time="0.051" />
+
+      <system-out><![CDATA[--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is unique--
+--Output from test User all constraints username is valid--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is unique--
+--Output from test User all constraints username is valid--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

@@ -2198,3 +2198,243 @@ Cannot resolve which method to invoke for [null] due to overlapping prototypes b
 	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
 	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
 	at java.lang.Thread.run(Thread.java:744)
+2014-08-22 18:19:45,192 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:45,882 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:45,913 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:45,915 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:45,971 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:45,974 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:45,987 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:45,990 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:45,996 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:45,999 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:46,013 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:46,015 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:46,026 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:46,035 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:46,040 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:46,043 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:46,052 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:46,054 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:46,065 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:46,068 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:46,072 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:46,075 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:46,084 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-22 18:19:46,086 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:41,864 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:42,022 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:42,191 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:42,256 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:42,652 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:42,733 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:43,007 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:43,067 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:43,176 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:43,243 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:43,556 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:43,649 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:43,915 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:44,003 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:44,176 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:44,208 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:44,231 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:44,234 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:44,248 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:44,251 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:44,256 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:44,259 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:44,267 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:50:44,269 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:14,851 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:14,909 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,018 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,076 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,184 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,186 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,246 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,248 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,252 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,254 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,260 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,261 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,303 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,305 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,308 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,311 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,319 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,321 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,366 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,368 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,371 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,373 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,377 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 09:54:15,379 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
+Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
+	at com.example.UserSpec.setup(UserSpec.groovy:13)
