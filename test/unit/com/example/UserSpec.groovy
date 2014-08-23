@@ -14,7 +14,7 @@ class UserSpec extends ConstraintUnitSpec {
     }
 
     @Unroll("test User all constraints #field is #error")
-    def "test user all constraints"(){
+    def "test User all constraints"(){
     	when:
     	def obj=new User("$field":val)
 
@@ -27,5 +27,9 @@ class UserSpec extends ConstraintUnitSpec {
     	'nullable'				|	'username'				|	null
     	'unique'				|	'username'				|	'test@test.com'
     	'valid'					|	'username'				|	'user@test.com'
+    	'nullable'				|	'passwordHash'			|	''
+    	'nullable'				|	'passwordHash'			|	null
+    	'nullable'				|	'passwordSalt'			|	''
+    	'nullable'				|	'passwordSalt'			|	null
     }
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Dell" name="com.example.RoleSpec" tests="4" time="0.321" timestamp="2014-08-23T14:11:56">
+  <properties />
+  <testcase classname="com.example.RoleSpec" name="test Role all constraints name is nullable" time="0.176" />
+  <testcase classname="com.example.RoleSpec" name="test Role all constraints name is nullable" time="0.036" />
+  <testcase classname="com.example.RoleSpec" name="test Role all constraints name is unique" time="0.043" />
+  <testcase classname="com.example.RoleSpec" name="test Role all constraints name is valid" time="0.048" />
+  <system-out><![CDATA[--Output from test Role all constraints name is nullable--
+--Output from test Role all constraints name is nullable--
+--Output from test Role all constraints name is unique--
+--Output from test Role all constraints name is valid--
+]]></system-out>
+  <system-err><![CDATA[--Output from test Role all constraints name is nullable--
+--Output from test Role all constraints name is nullable--
+--Output from test Role all constraints name is unique--
+--Output from test Role all constraints name is valid--
+]]></system-err>
+</testsuite>
