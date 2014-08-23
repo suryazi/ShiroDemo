@@ -2438,3 +2438,128 @@ Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraints
 groovy.lang.MissingMethodException: No signature of method: com.example.UserSpec.mockforConstraintsTests() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.example.User, [com.example.User : (unsaved)]]
 Possible solutions: mockForConstraintsTests(java.lang.Class), mockForConstraintsTests(java.lang.Class, java.util.List)
 	at com.example.UserSpec.setup(UserSpec.groovy:13)
+2014-08-23 17:45:21,662 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:38)
+2014-08-23 17:45:21,664 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:38)
+2014-08-23 17:45:21,667 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:38)
+2014-08-23 17:45:21,667 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:38)
+2014-08-23 17:45:21,682 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:38)
+2014-08-23 17:45:21,682 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:38)
+2014-08-23 17:55:07,349 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.Role] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at com.example.PermissionSpec.test Permission Role constraints(PermissionSpec.groovy:54)
+2014-08-23 17:55:07,352 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.Role] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission Role constraints(PermissionSpec.groovy:54)
+2014-08-23 17:55:07,354 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.Role] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission Role constraints(PermissionSpec.groovy:54)
+2014-08-23 17:55:07,354 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.Role] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission Role constraints(PermissionSpec.groovy:54)
+2014-08-23 17:55:07,359 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.Role] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission Role constraints(PermissionSpec.groovy:54)
+2014-08-23 17:55:07,359 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.Role] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission Role constraints(PermissionSpec.groovy:54)
+2014-08-23 17:55:07,451 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.Role] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at com.example.PermissionSpec.test Permission Role constraints(PermissionSpec.groovy:54)
+2014-08-23 17:55:07,451 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.Role] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission Role constraints(PermissionSpec.groovy:54)
+2014-08-23 17:55:07,452 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.Role] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission Role constraints(PermissionSpec.groovy:54)
+2014-08-23 17:55:07,452 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.Role] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission Role constraints(PermissionSpec.groovy:54)
+2014-08-23 17:55:07,453 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.Role] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission Role constraints(PermissionSpec.groovy:54)
+2014-08-23 17:55:07,453 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.Role] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission Role constraints(PermissionSpec.groovy:54)
+2014-08-23 18:02:01,870 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:41)
+2014-08-23 18:02:01,873 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:41)
+2014-08-23 18:02:01,874 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:41)
+2014-08-23 18:02:01,874 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:41)
+2014-08-23 18:02:01,879 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:41)
+2014-08-23 18:02:01,880 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:41)
+2014-08-23 18:02:01,920 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:41)
+2014-08-23 18:02:01,921 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:41)
+2014-08-23 18:02:01,921 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:41)
+2014-08-23 18:02:01,921 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:41)
+2014-08-23 18:02:01,922 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:41)
+2014-08-23 18:02:01,922 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [com.example.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at com.example.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:30)
+	at com.example.PermissionSpec.test Permission User constraints(PermissionSpec.groovy:41)

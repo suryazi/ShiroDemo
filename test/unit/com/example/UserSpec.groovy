@@ -25,6 +25,7 @@ class UserSpec extends ConstraintUnitSpec {
     	error					|	field					|	val
     	'nullable'				|	'username'				|	''
     	'nullable'				|	'username'				|	null
+    	'email'					|	'username'				|	getEmail(false)
     	'unique'				|	'username'				|	'test@test.com'
     	'valid'					|	'username'				|	'user@test.com'
     	'nullable'				|	'passwordHash'			|	''

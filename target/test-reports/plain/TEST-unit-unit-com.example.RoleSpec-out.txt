@@ -1,4 +1,0 @@
---Output from test Role all constraints name is nullable--
---Output from test Role all constraints name is nullable--
---Output from test Role all constraints name is unique--
---Output from test Role all constraints name is valid--

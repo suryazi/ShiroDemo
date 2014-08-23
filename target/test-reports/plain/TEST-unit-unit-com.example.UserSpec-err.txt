@@ -1,8 +1,0 @@
---Output from test User all constraints username is nullable--
---Output from test User all constraints username is nullable--
---Output from test User all constraints username is unique--
---Output from test User all constraints username is valid--
---Output from test User all constraints passwordHash is nullable--
---Output from test User all constraints passwordHash is nullable--
---Output from test User all constraints passwordSalt is nullable--
---Output from test User all constraints passwordSalt is nullable--
