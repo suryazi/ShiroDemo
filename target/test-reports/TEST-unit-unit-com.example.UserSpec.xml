@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Dell" name="com.example.UserSpec" tests="9" time="0.26" timestamp="2014-08-24T13:45:39">
+  <properties />
+  <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.114" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.017" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints username is email" time="0.022" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints username is unique" time="0.02" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints username is valid" time="0.023" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.015" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.014" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.014" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.013" />
+  <system-out><![CDATA[--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is email--
+--Output from test User all constraints username is unique--
+--Output from test User all constraints username is valid--
+--Output from test User all constraints passwordHash is nullable--
+--Output from test User all constraints passwordHash is nullable--
+--Output from test User all constraints passwordSalt is nullable--
+--Output from test User all constraints passwordSalt is nullable--
+]]></system-out>
+  <system-err><![CDATA[--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is email--
+--Output from test User all constraints username is unique--
+--Output from test User all constraints username is valid--
+--Output from test User all constraints passwordHash is nullable--
+--Output from test User all constraints passwordHash is nullable--
+--Output from test User all constraints passwordSalt is nullable--
+--Output from test User all constraints passwordSalt is nullable--
+]]></system-err>
+</testsuite>

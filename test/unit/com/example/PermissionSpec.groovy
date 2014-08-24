@@ -8,7 +8,7 @@ import spock.lang.Unroll
  */
 
 @TestFor(Permission)
-@Mock(User)
+@Mock([User, Role])
 class PermissionSpec extends ConstraintUnitSpec {
 
     def setup() {
@@ -45,7 +45,7 @@ class PermissionSpec extends ConstraintUnitSpec {
         'valid'                 |   'user'                  |   createUser(1)
     }
 
-   /* @Unroll("Permission #field testing #error")
+    @Unroll("Permission #field testing #error")
     def "test Permission Role constraints"(){
         when:
         def obj=new Role("$field":val)
@@ -57,7 +57,7 @@ class PermissionSpec extends ConstraintUnitSpec {
         error                   |   field                   |   val
         'valid'                 |   'role'                  |   null
         'valid'                 |   'role'                  |   createRole(1)
-    }*/
+    }
 
     private createUser(Integer count) {
         def users = []

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Dell" name="com.example.PermissionSpec" tests="8" time="5.357" timestamp="2014-08-24T13:45:34">
+  <properties />
+  <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is nullable" time="3.716" />
+  <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is nullable" time="0.183" />
+  <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is unique" time="1.011" />
+  <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is valid" time="0.103" />
+  <testcase classname="com.example.PermissionSpec" name="Permission user testing valid" time="0.083" />
+  <testcase classname="com.example.PermissionSpec" name="Permission user testing valid" time="0.06" />
+  <testcase classname="com.example.PermissionSpec" name="Permission role testing valid" time="0.05" />
+  <testcase classname="com.example.PermissionSpec" name="Permission role testing valid" time="0.064" />
+  <system-out><![CDATA[--Output from test Permission all constraints acl is nullable--
+--Output from test Permission all constraints acl is nullable--
+--Output from test Permission all constraints acl is unique--
+--Output from test Permission all constraints acl is valid--
+--Output from Permission user testing valid--
+--Output from Permission user testing valid--
+--Output from Permission role testing valid--
+--Output from Permission role testing valid--
+]]></system-out>
+  <system-err><![CDATA[--Output from test Permission all constraints acl is nullable--
+--Output from test Permission all constraints acl is nullable--
+--Output from test Permission all constraints acl is unique--
+--Output from test Permission all constraints acl is valid--
+--Output from Permission user testing valid--
+--Output from Permission user testing valid--
+--Output from Permission role testing valid--
+--Output from Permission role testing valid--
+]]></system-err>
+</testsuite>

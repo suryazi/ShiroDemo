@@ -1,0 +1,34 @@
+Testsuite: com.example.UserSpec
+Tests run: 9, Failures: 0, Errors: 0, Time elapsed: 0.26 sec
+------------- Standard Output ---------------
+--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is email--
+--Output from test User all constraints username is unique--
+--Output from test User all constraints username is valid--
+--Output from test User all constraints passwordHash is nullable--
+--Output from test User all constraints passwordHash is nullable--
+--Output from test User all constraints passwordSalt is nullable--
+--Output from test User all constraints passwordSalt is nullable--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is nullable--
+--Output from test User all constraints username is email--
+--Output from test User all constraints username is unique--
+--Output from test User all constraints username is valid--
+--Output from test User all constraints passwordHash is nullable--
+--Output from test User all constraints passwordHash is nullable--
+--Output from test User all constraints passwordSalt is nullable--
+--Output from test User all constraints passwordSalt is nullable--
+------------- ---------------- ---------------
+
+Testcase: test User all constraints username is nullable took 0.114 sec
+Testcase: test User all constraints username is nullable took 0.017 sec
+Testcase: test User all constraints username is email took 0.022 sec
+Testcase: test User all constraints username is unique took 0.02 sec
+Testcase: test User all constraints username is valid took 0.023 sec
+Testcase: test User all constraints passwordHash is nullable took 0.015 sec
+Testcase: test User all constraints passwordHash is nullable took 0.014 sec
+Testcase: test User all constraints passwordSalt is nullable took 0.014 sec
+Testcase: test User all constraints passwordSalt is nullable took 0.013 sec
