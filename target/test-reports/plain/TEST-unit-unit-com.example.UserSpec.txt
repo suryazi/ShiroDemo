@@ -1,5 +1,5 @@
 Testsuite: com.example.UserSpec
-Tests run: 9, Failures: 0, Errors: 0, Time elapsed: 0.26 sec
+Tests run: 15, Failures: 0, Errors: 0, Time elapsed: 0.824 sec
 ------------- Standard Output ---------------
 --Output from test User all constraints username is nullable--
 --Output from test User all constraints username is nullable--
@@ -10,6 +10,12 @@ Tests run: 9, Failures: 0, Errors: 0, Time elapsed: 0.26 sec
 --Output from test User all constraints passwordHash is nullable--
 --Output from test User all constraints passwordSalt is nullable--
 --Output from test User all constraints passwordSalt is nullable--
+--Output from User username using dexterm@m results in false--
+--Output from User username using dexterm@miamipd.gov results in true--
+--Output from User role testing valid--
+--Output from User role testing valid--
+--Output from User permission testing valid--
+--Output from User permission testing valid--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 --Output from test User all constraints username is nullable--
@@ -21,14 +27,26 @@ Tests run: 9, Failures: 0, Errors: 0, Time elapsed: 0.26 sec
 --Output from test User all constraints passwordHash is nullable--
 --Output from test User all constraints passwordSalt is nullable--
 --Output from test User all constraints passwordSalt is nullable--
+--Output from User username using dexterm@m results in false--
+--Output from User username using dexterm@miamipd.gov results in true--
+--Output from User role testing valid--
+--Output from User role testing valid--
+--Output from User permission testing valid--
+--Output from User permission testing valid--
 ------------- ---------------- ---------------
 
-Testcase: test User all constraints username is nullable took 0.114 sec
-Testcase: test User all constraints username is nullable took 0.017 sec
-Testcase: test User all constraints username is email took 0.022 sec
-Testcase: test User all constraints username is unique took 0.02 sec
-Testcase: test User all constraints username is valid took 0.023 sec
-Testcase: test User all constraints passwordHash is nullable took 0.015 sec
-Testcase: test User all constraints passwordHash is nullable took 0.014 sec
-Testcase: test User all constraints passwordSalt is nullable took 0.014 sec
-Testcase: test User all constraints passwordSalt is nullable took 0.013 sec
+Testcase: test User all constraints username is nullable took 0.137 sec
+Testcase: test User all constraints username is nullable took 0.042 sec
+Testcase: test User all constraints username is email took 0.09 sec
+Testcase: test User all constraints username is unique took 0.048 sec
+Testcase: test User all constraints username is valid took 0.044 sec
+Testcase: test User all constraints passwordHash is nullable took 0.042 sec
+Testcase: test User all constraints passwordHash is nullable took 0.042 sec
+Testcase: test User all constraints passwordSalt is nullable took 0.042 sec
+Testcase: test User all constraints passwordSalt is nullable took 0.042 sec
+Testcase: User username using dexterm@m results in false took 0.044 sec
+Testcase: User username using dexterm@miamipd.gov results in true took 0.038 sec
+Testcase: User role testing valid took 0.037 sec
+Testcase: User role testing valid took 0.039 sec
+Testcase: User permission testing valid took 0.053 sec
+Testcase: User permission testing valid took 0.045 sec

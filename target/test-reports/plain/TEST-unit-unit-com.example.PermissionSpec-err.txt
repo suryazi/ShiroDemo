@@ -2,6 +2,8 @@
 --Output from test Permission all constraints acl is nullable--
 --Output from test Permission all constraints acl is unique--
 --Output from test Permission all constraints acl is valid--
+--Output from Permission acl using  results in false--
+--Output from Permission acl using aaaaaaaaaaaaaaa results in true--
 --Output from Permission user testing valid--
 --Output from Permission user testing valid--
 --Output from Permission role testing valid--

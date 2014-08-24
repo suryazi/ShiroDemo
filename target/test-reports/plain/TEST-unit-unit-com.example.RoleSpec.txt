@@ -1,19 +1,37 @@
 Testsuite: com.example.RoleSpec
-Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 0.148 sec
+Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 0.824 sec
 ------------- Standard Output ---------------
 --Output from test Role all constraints name is nullable--
 --Output from test Role all constraints name is nullable--
 --Output from test Role all constraints name is unique--
 --Output from test Role all constraints name is valid--
+--Output from Role name using  results in false--
+--Output from Role name using aaaaaaaaaaaaaaa results in true--
+--Output from Role user testing valid--
+--Output from Role user testing valid--
+--Output from Role permission testing valid--
+--Output from Role permission testing valid--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 --Output from test Role all constraints name is nullable--
 --Output from test Role all constraints name is nullable--
 --Output from test Role all constraints name is unique--
 --Output from test Role all constraints name is valid--
+--Output from Role name using  results in false--
+--Output from Role name using aaaaaaaaaaaaaaa results in true--
+--Output from Role user testing valid--
+--Output from Role user testing valid--
+--Output from Role permission testing valid--
+--Output from Role permission testing valid--
 ------------- ---------------- ---------------
 
-Testcase: test Role all constraints name is nullable took 0.094 sec
-Testcase: test Role all constraints name is nullable took 0.015 sec
-Testcase: test Role all constraints name is unique took 0.014 sec
-Testcase: test Role all constraints name is valid took 0.014 sec
+Testcase: test Role all constraints name is nullable took 0.184 sec
+Testcase: test Role all constraints name is nullable took 0.071 sec
+Testcase: test Role all constraints name is unique took 0.073 sec
+Testcase: test Role all constraints name is valid took 0.079 sec
+Testcase: Role name using  results in false took 0.08 sec
+Testcase: Role name using aaaaaaaaaaaaaaa results in true took 0.074 sec
+Testcase: Role user testing valid took 0.056 sec
+Testcase: Role user testing valid took 0.054 sec
+Testcase: Role permission testing valid took 0.054 sec
+Testcase: Role permission testing valid took 0.05 sec

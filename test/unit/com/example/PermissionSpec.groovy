@@ -31,10 +31,24 @@ class PermissionSpec extends ConstraintUnitSpec {
     	'valid'					|	'acl'					|	'Home:Index'
     }
 
+    @Unroll("Permission #field using #val results in #result")
+    def "test acl constraints"(){
+        when:
+        def obj=new Permission("$field":val)
+
+        then:
+        validateResults(obj,field,result)
+
+        where:
+        result  |   field           |   val
+        false   |   'acl'           |   ''
+        true    |   'acl'           |   getLongString(15)
+    }
+
     @Unroll("Permission #field testing #error")
     def "test Permission User constraints"(){
     	when:
-    	def obj=new User("$field":val)
+    	def obj=new Permission("$field":val)
 
     	then:
     	validateConstraints(obj, field, error)
@@ -48,7 +62,7 @@ class PermissionSpec extends ConstraintUnitSpec {
     @Unroll("Permission #field testing #error")
     def "test Permission Role constraints"(){
         when:
-        def obj=new Role("$field":val)
+        def obj=new Permission("$field":val)
 
         then:
         validateConstraints(obj, field, error)
@@ -74,5 +88,4 @@ class PermissionSpec extends ConstraintUnitSpec {
         }
         roles
     }
-
 }

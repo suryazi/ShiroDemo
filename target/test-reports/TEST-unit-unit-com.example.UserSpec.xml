@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Dell" name="com.example.UserSpec" tests="9" time="0.26" timestamp="2014-08-24T13:45:39">
+<testsuite errors="0" failures="0" hostname="Dell" name="com.example.UserSpec" tests="15" time="0.824" timestamp="2014-08-24T14:38:26">
   <properties />
-  <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.114" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.017" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints username is email" time="0.022" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints username is unique" time="0.02" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints username is valid" time="0.023" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.015" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.014" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.014" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.013" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.137" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.041" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints username is email" time="0.09" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints username is unique" time="0.048" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints username is valid" time="0.044" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.042" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.042" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.042" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.042" />
+  <testcase classname="com.example.UserSpec" name="User username using dexterm@m results in false" time="0.044" />
+  <testcase classname="com.example.UserSpec" name="User username using dexterm@miamipd.gov results in true" time="0.038" />
+  <testcase classname="com.example.UserSpec" name="User role testing valid" time="0.037" />
+  <testcase classname="com.example.UserSpec" name="User role testing valid" time="0.039" />
+  <testcase classname="com.example.UserSpec" name="User permission testing valid" time="0.053" />
+  <testcase classname="com.example.UserSpec" name="User permission testing valid" time="0.045" />
   <system-out><![CDATA[--Output from test User all constraints username is nullable--
 --Output from test User all constraints username is nullable--
 --Output from test User all constraints username is email--
@@ -19,6 +25,12 @@
 --Output from test User all constraints passwordHash is nullable--
 --Output from test User all constraints passwordSalt is nullable--
 --Output from test User all constraints passwordSalt is nullable--
+--Output from User username using dexterm@m results in false--
+--Output from User username using dexterm@miamipd.gov results in true--
+--Output from User role testing valid--
+--Output from User role testing valid--
+--Output from User permission testing valid--
+--Output from User permission testing valid--
 ]]></system-out>
   <system-err><![CDATA[--Output from test User all constraints username is nullable--
 --Output from test User all constraints username is nullable--
@@ -29,5 +41,11 @@
 --Output from test User all constraints passwordHash is nullable--
 --Output from test User all constraints passwordSalt is nullable--
 --Output from test User all constraints passwordSalt is nullable--
+--Output from User username using dexterm@m results in false--
+--Output from User username using dexterm@miamipd.gov results in true--
+--Output from User role testing valid--
+--Output from User role testing valid--
+--Output from User permission testing valid--
+--Output from User permission testing valid--
 ]]></system-err>
 </testsuite>

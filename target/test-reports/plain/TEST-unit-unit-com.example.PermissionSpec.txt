@@ -1,10 +1,12 @@
 Testsuite: com.example.PermissionSpec
-Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 5.357 sec
+Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 5.844 sec
 ------------- Standard Output ---------------
 --Output from test Permission all constraints acl is nullable--
 --Output from test Permission all constraints acl is nullable--
 --Output from test Permission all constraints acl is unique--
 --Output from test Permission all constraints acl is valid--
+--Output from Permission acl using  results in false--
+--Output from Permission acl using aaaaaaaaaaaaaaa results in true--
 --Output from Permission user testing valid--
 --Output from Permission user testing valid--
 --Output from Permission role testing valid--
@@ -15,17 +17,21 @@ Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 5.357 sec
 --Output from test Permission all constraints acl is nullable--
 --Output from test Permission all constraints acl is unique--
 --Output from test Permission all constraints acl is valid--
+--Output from Permission acl using  results in false--
+--Output from Permission acl using aaaaaaaaaaaaaaa results in true--
 --Output from Permission user testing valid--
 --Output from Permission user testing valid--
 --Output from Permission role testing valid--
 --Output from Permission role testing valid--
 ------------- ---------------- ---------------
 
-Testcase: test Permission all constraints acl is nullable took 3.716 sec
-Testcase: test Permission all constraints acl is nullable took 0.183 sec
-Testcase: test Permission all constraints acl is unique took 1.011 sec
-Testcase: test Permission all constraints acl is valid took 0.103 sec
-Testcase: Permission user testing valid took 0.083 sec
-Testcase: Permission user testing valid took 0.06 sec
-Testcase: Permission role testing valid took 0.05 sec
-Testcase: Permission role testing valid took 0.064 sec
+Testcase: test Permission all constraints acl is nullable took 3.517 sec
+Testcase: test Permission all constraints acl is nullable took 0.16 sec
+Testcase: test Permission all constraints acl is unique took 1.521 sec
+Testcase: test Permission all constraints acl is valid took 0.081 sec
+Testcase: Permission acl using  results in false took 0.086 sec
+Testcase: Permission acl using aaaaaaaaaaaaaaa results in true took 0.079 sec
+Testcase: Permission user testing valid took 0.086 sec
+Testcase: Permission user testing valid took 0.078 sec
+Testcase: Permission role testing valid took 0.073 sec
+Testcase: Permission role testing valid took 0.06 sec

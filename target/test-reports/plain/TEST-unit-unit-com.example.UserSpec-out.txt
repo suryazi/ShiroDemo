@@ -7,3 +7,9 @@
 --Output from test User all constraints passwordHash is nullable--
 --Output from test User all constraints passwordSalt is nullable--
 --Output from test User all constraints passwordSalt is nullable--
+--Output from User username using dexterm@m results in false--
+--Output from User username using dexterm@miamipd.gov results in true--
+--Output from User role testing valid--
+--Output from User role testing valid--
+--Output from User permission testing valid--
+--Output from User permission testing valid--

@@ -2,3 +2,9 @@
 --Output from test Role all constraints name is nullable--
 --Output from test Role all constraints name is unique--
 --Output from test Role all constraints name is valid--
+--Output from Role name using  results in false--
+--Output from Role name using aaaaaaaaaaaaaaa results in true--
+--Output from Role user testing valid--
+--Output from Role user testing valid--
+--Output from Role permission testing valid--
+--Output from Role permission testing valid--
