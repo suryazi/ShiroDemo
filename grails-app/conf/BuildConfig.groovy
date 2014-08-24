@@ -63,6 +63,12 @@ grails.project.dependency.resolution = {
         compile ":asset-pipeline:1.9.7"
         compile ":shiro:1.2.1"
 
+        // Plugins to be excluded from WAR
+        provided ":codenarc:0.21"
+
+        // plugins for the test step
+        test ":code-coverage:2.0.3-2"
+
         // plugins needed at runtime but not for compilation
         runtime ":hibernate4:4.3.5.5" // or ":hibernate:3.6.10.17"
         runtime ":database-migration:1.4.0"

@@ -2,10 +2,7 @@ package com.example
 
 import org.apache.shiro.authc.UsernamePasswordToken
 import org.apache.shiro.SecurityUtils
-//import com.example.Role
-//import com.example.User
 import org.apache.shiro.crypto.hash.Sha512Hash
-import org.apache.shiro.crypto.RandomNumberGenerator
 import org.apache.shiro.crypto.SecureRandomNumberGenerator
 
 class SignupController {

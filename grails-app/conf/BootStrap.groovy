@@ -2,7 +2,6 @@ import com.example.Role
 import com.example.User
 import com.example.Permission
 import org.apache.shiro.crypto.hash.Sha512Hash
-import org.apache.shiro.crypto.RandomNumberGenerator
 import org.apache.shiro.crypto.SecureRandomNumberGenerator
 
 class BootStrap {

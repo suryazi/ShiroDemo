@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="Dell" id="0" name="PermissionSpec" package="com.example" tests="10" time="5.844" timestamp="2014-08-24T14:38:19">
+  <testsuite errors="0" failures="0" hostname="Dell" id="0" name="PermissionSpec" package="com.example" tests="10" time="7.744" timestamp="2014-08-24T14:54:36">
       <properties />
 
-      <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is nullable" time="3.517" />
+      <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is nullable" time="5.55" />
 
-      <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is nullable" time="0.16" />
+      <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is nullable" time="0.348" />
 
-      <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is unique" time="1.521" />
+      <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is unique" time="1.227" />
 
-      <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is valid" time="0.081" />
+      <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is valid" time="0.093" />
 
-      <testcase classname="com.example.PermissionSpec" name="Permission acl using  results in false" time="0.086" />
+      <testcase classname="com.example.PermissionSpec" name="Permission acl using  results in false" time="0.082" />
 
-      <testcase classname="com.example.PermissionSpec" name="Permission acl using aaaaaaaaaaaaaaa results in true" time="0.079" />
+      <testcase classname="com.example.PermissionSpec" name="Permission acl using aaaaaaaaaaaaaaa results in true" time="0.07" />
 
-      <testcase classname="com.example.PermissionSpec" name="Permission user testing valid" time="0.086" />
+      <testcase classname="com.example.PermissionSpec" name="Permission user testing valid" time="0.067" />
 
-      <testcase classname="com.example.PermissionSpec" name="Permission user testing valid" time="0.078" />
+      <testcase classname="com.example.PermissionSpec" name="Permission user testing valid" time="0.069" />
 
-      <testcase classname="com.example.PermissionSpec" name="Permission role testing valid" time="0.073" />
+      <testcase classname="com.example.PermissionSpec" name="Permission role testing valid" time="0.063" />
 
-      <testcase classname="com.example.PermissionSpec" name="Permission role testing valid" time="0.06" />
+      <testcase classname="com.example.PermissionSpec" name="Permission role testing valid" time="0.059" />
 
       <system-out><![CDATA[--Output from test Permission all constraints acl is nullable--
 --Output from test Permission all constraints acl is nullable--
@@ -48,28 +48,28 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Dell" id="1" name="RoleSpec" package="com.example" tests="10" time="0.824" timestamp="2014-08-24T14:38:25">
+  <testsuite errors="0" failures="0" hostname="Dell" id="1" name="RoleSpec" package="com.example" tests="10" time="0.793" timestamp="2014-08-24T14:54:44">
       <properties />
 
       <testcase classname="com.example.RoleSpec" name="test Role all constraints name is nullable" time="0.183" />
 
-      <testcase classname="com.example.RoleSpec" name="test Role all constraints name is nullable" time="0.071" />
+      <testcase classname="com.example.RoleSpec" name="test Role all constraints name is nullable" time="0.066" />
 
-      <testcase classname="com.example.RoleSpec" name="test Role all constraints name is unique" time="0.073" />
+      <testcase classname="com.example.RoleSpec" name="test Role all constraints name is unique" time="0.087" />
 
-      <testcase classname="com.example.RoleSpec" name="test Role all constraints name is valid" time="0.079" />
+      <testcase classname="com.example.RoleSpec" name="test Role all constraints name is valid" time="0.057" />
 
-      <testcase classname="com.example.RoleSpec" name="Role name using  results in false" time="0.08" />
+      <testcase classname="com.example.RoleSpec" name="Role name using  results in false" time="0.057" />
 
-      <testcase classname="com.example.RoleSpec" name="Role name using aaaaaaaaaaaaaaa results in true" time="0.074" />
+      <testcase classname="com.example.RoleSpec" name="Role name using aaaaaaaaaaaaaaa results in true" time="0.06" />
 
-      <testcase classname="com.example.RoleSpec" name="Role user testing valid" time="0.056" />
+      <testcase classname="com.example.RoleSpec" name="Role user testing valid" time="0.08" />
 
-      <testcase classname="com.example.RoleSpec" name="Role user testing valid" time="0.053" />
+      <testcase classname="com.example.RoleSpec" name="Role user testing valid" time="0.051" />
 
-      <testcase classname="com.example.RoleSpec" name="Role permission testing valid" time="0.054" />
+      <testcase classname="com.example.RoleSpec" name="Role permission testing valid" time="0.051" />
 
-      <testcase classname="com.example.RoleSpec" name="Role permission testing valid" time="0.05" />
+      <testcase classname="com.example.RoleSpec" name="Role permission testing valid" time="0.051" />
 
       <system-out><![CDATA[--Output from test Role all constraints name is nullable--
 --Output from test Role all constraints name is nullable--
@@ -96,38 +96,38 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Dell" id="2" name="UserSpec" package="com.example" tests="15" time="0.824" timestamp="2014-08-24T14:38:26">
+  <testsuite errors="0" failures="0" hostname="Dell" id="2" name="UserSpec" package="com.example" tests="15" time="0.904" timestamp="2014-08-24T14:54:44">
       <properties />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.137" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.166" />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.041" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.048" />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints username is email" time="0.09" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints username is email" time="0.061" />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints username is unique" time="0.048" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints username is unique" time="0.05" />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints username is valid" time="0.044" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints username is valid" time="0.05" />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.042" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.045" />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.042" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.05" />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.042" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.05" />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.042" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.046" />
 
-      <testcase classname="com.example.UserSpec" name="User username using dexterm@m results in false" time="0.044" />
+      <testcase classname="com.example.UserSpec" name="User username using dexterm@m results in false" time="0.05" />
 
-      <testcase classname="com.example.UserSpec" name="User username using dexterm@miamipd.gov results in true" time="0.038" />
+      <testcase classname="com.example.UserSpec" name="User username using dexterm@miamipd.gov results in true" time="0.049" />
 
-      <testcase classname="com.example.UserSpec" name="User role testing valid" time="0.037" />
+      <testcase classname="com.example.UserSpec" name="User role testing valid" time="0.05" />
 
-      <testcase classname="com.example.UserSpec" name="User role testing valid" time="0.039" />
-
-      <testcase classname="com.example.UserSpec" name="User permission testing valid" time="0.053" />
+      <testcase classname="com.example.UserSpec" name="User role testing valid" time="0.046" />
 
       <testcase classname="com.example.UserSpec" name="User permission testing valid" time="0.045" />
+
+      <testcase classname="com.example.UserSpec" name="User permission testing valid" time="0.047" />
 
       <system-out><![CDATA[--Output from test User all constraints username is nullable--
 --Output from test User all constraints username is nullable--

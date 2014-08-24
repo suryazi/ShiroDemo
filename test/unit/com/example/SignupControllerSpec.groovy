@@ -9,12 +9,12 @@ import spock.lang.Specification
 @TestFor(SignupController)
 class SignupControllerSpec extends Specification {
 
-    def setup() {
+    /*def setup() {
     }
 
     def cleanup() {
     }
 
     void "test something"() {
-    }
+    }*/
 }
