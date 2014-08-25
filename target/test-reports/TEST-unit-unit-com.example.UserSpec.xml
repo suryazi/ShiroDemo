@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Dell" name="com.example.UserSpec" tests="15" time="0.904" timestamp="2014-08-24T14:54:44">
+<testsuite errors="0" failures="0" hostname="Dell" name="com.example.UserSpec" tests="15" time="0.797" timestamp="2014-08-25T08:23:18">
   <properties />
-  <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.166" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.048" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints username is email" time="0.061" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints username is unique" time="0.05" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints username is valid" time="0.05" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.045" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.05" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.05" />
-  <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.046" />
-  <testcase classname="com.example.UserSpec" name="User username using dexterm@m results in false" time="0.05" />
-  <testcase classname="com.example.UserSpec" name="User username using dexterm@miamipd.gov results in true" time="0.049" />
-  <testcase classname="com.example.UserSpec" name="User role testing valid" time="0.05" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.14" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.047" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints username is email" time="0.047" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints username is unique" time="0.047" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints username is valid" time="0.047" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.047" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.047" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.031" />
+  <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.047" />
+  <testcase classname="com.example.UserSpec" name="User username using dexterm@m results in false" time="0.062" />
+  <testcase classname="com.example.UserSpec" name="User username using dexterm@miamipd.gov results in true" time="0.032" />
   <testcase classname="com.example.UserSpec" name="User role testing valid" time="0.046" />
-  <testcase classname="com.example.UserSpec" name="User permission testing valid" time="0.045" />
-  <testcase classname="com.example.UserSpec" name="User permission testing valid" time="0.047" />
+  <testcase classname="com.example.UserSpec" name="User role testing valid" time="0.047" />
+  <testcase classname="com.example.UserSpec" name="User permission testing valid" time="0.032" />
+  <testcase classname="com.example.UserSpec" name="User permission testing valid" time="0.046" />
   <system-out><![CDATA[--Output from test User all constraints username is nullable--
 --Output from test User all constraints username is nullable--
 --Output from test User all constraints username is email--

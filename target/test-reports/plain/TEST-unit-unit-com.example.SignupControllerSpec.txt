@@ -1,0 +1,15 @@
+Testsuite: com.example.SignupControllerSpec
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 1.453 sec
+------------- Standard Output ---------------
+--Output from Test the index action returns the correct model--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Test the index action returns the correct model--
+------------- ---------------- ---------------
+
+Testcase: Test the index action returns the correct model took 1.406 sec
+	Caused an ERROR
+No such property: user for class: com.example.User
+groovy.lang.MissingPropertyException: No such property: user for class: com.example.User
+	at com.example.SignupControllerSpec.Test the index action returns the correct model(SignupControllerSpec.groovy:25)
+

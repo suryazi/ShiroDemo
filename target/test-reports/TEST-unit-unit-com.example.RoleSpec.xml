@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Dell" name="com.example.RoleSpec" tests="10" time="0.793" timestamp="2014-08-24T14:54:44">
+<testsuite errors="0" failures="0" hostname="Dell" name="com.example.RoleSpec" tests="10" time="0.687" timestamp="2014-08-25T08:23:15">
   <properties />
-  <testcase classname="com.example.RoleSpec" name="test Role all constraints name is nullable" time="0.183" />
-  <testcase classname="com.example.RoleSpec" name="test Role all constraints name is nullable" time="0.066" />
-  <testcase classname="com.example.RoleSpec" name="test Role all constraints name is unique" time="0.087" />
-  <testcase classname="com.example.RoleSpec" name="test Role all constraints name is valid" time="0.057" />
-  <testcase classname="com.example.RoleSpec" name="Role name using  results in false" time="0.057" />
-  <testcase classname="com.example.RoleSpec" name="Role name using aaaaaaaaaaaaaaa results in true" time="0.06" />
-  <testcase classname="com.example.RoleSpec" name="Role user testing valid" time="0.08" />
-  <testcase classname="com.example.RoleSpec" name="Role user testing valid" time="0.051" />
-  <testcase classname="com.example.RoleSpec" name="Role permission testing valid" time="0.051" />
-  <testcase classname="com.example.RoleSpec" name="Role permission testing valid" time="0.051" />
+  <testcase classname="com.example.RoleSpec" name="test Role all constraints name is nullable" time="0.203" />
+  <testcase classname="com.example.RoleSpec" name="test Role all constraints name is nullable" time="0.078" />
+  <testcase classname="com.example.RoleSpec" name="test Role all constraints name is unique" time="0.062" />
+  <testcase classname="com.example.RoleSpec" name="test Role all constraints name is valid" time="0.047" />
+  <testcase classname="com.example.RoleSpec" name="Role name using  results in false" time="0.063" />
+  <testcase classname="com.example.RoleSpec" name="Role name using aaaaaaaaaaaaaaa results in true" time="0.047" />
+  <testcase classname="com.example.RoleSpec" name="Role user testing valid" time="0.047" />
+  <testcase classname="com.example.RoleSpec" name="Role user testing valid" time="0.047" />
+  <testcase classname="com.example.RoleSpec" name="Role permission testing valid" time="0.031" />
+  <testcase classname="com.example.RoleSpec" name="Role permission testing valid" time="0.031" />
   <system-out><![CDATA[--Output from test Role all constraints name is nullable--
 --Output from test Role all constraints name is nullable--
 --Output from test Role all constraints name is unique--

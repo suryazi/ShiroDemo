@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="Dell" name="com.example.SignupControllerSpec" tests="1" time="1.453" timestamp="2014-08-25T08:23:16">
+  <properties />
+  <testcase classname="com.example.SignupControllerSpec" name="Test the index action returns the correct model" time="1.438">
+    <error message="No such property: user for class: com.example.User" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: user for class: com.example.User
+	at com.example.SignupControllerSpec.Test the index action returns the correct model(SignupControllerSpec.groovy:25)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from Test the index action returns the correct model--
+]]></system-out>
+  <system-err><![CDATA[--Output from Test the index action returns the correct model--
+]]></system-err>
+</testsuite>

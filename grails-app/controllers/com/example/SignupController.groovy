@@ -9,10 +9,10 @@ class SignupController {
 
     def index() {
         User user = new User()
-        [user: user]
+        user: user
     }
 
-    def register() {
+    def register(RegistrationCommand rc) {
 
         // Check to see if the username already exists
         def user = User.findByUsername(params.username)
@@ -23,14 +23,12 @@ class SignupController {
 
         // User doesn't exist with username. Let's create one
         else {
-
-            // Make sure the passwords match
-            if (params.password != params.password2) {
-                flash.message = "Passwords do not match"
+            if(rc.hasErrors()){
+                flash.message = "password has errors please correct and resubmit"
                 redirect(action:'index')
             }
 
-            // Passwords match. Let's attempt to save the user
+            // Input data is santized.
             else {
                 // Create user
                 def passwordSalt = new SecureRandomNumberGenerator().nextBytes().getBytes()
@@ -57,6 +55,22 @@ class SignupController {
                     redirect(controller: 'auth', action: 'login')
                 }
             }
+        }
+    }
+}
+
+class RegistrationCommand {
+    String username
+    String password
+    String password2
+
+    static constraints={
+        password blank:false, validator: {pwd, rc->
+            return pwd != rc.username
+        }
+
+        password2 blank:false, validator:{pwd2, rc->
+            return pwd2==rc.password
         }
     }
 }

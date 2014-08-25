@@ -7,14 +7,21 @@ import spock.lang.Specification
  * See the API for {@link grails.test.mixin.web.ControllerUnitTestMixin} for usage instructions
  */
 @TestFor(SignupController)
+@Mock(User)
 class SignupControllerSpec extends Specification {
 
-    /*def setup() {
+    def populateValidParams(params){
+    	assert params != null
+    	params["username"]="test@test.com"
+    	params["password"]="password"
     }
 
-    def cleanup() {
-    }
+   /* void "Test the index action returns the correct model"(){
 
-    void "test something"() {
+    	when:"The index action is executed"
+    		controller.index()
+
+    	then:"The model is correct"
+    		user!=null
     }*/
 }
