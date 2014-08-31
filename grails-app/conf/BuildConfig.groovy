@@ -60,7 +60,7 @@ grails.project.dependency.resolution = {
         // plugins for the compile step
         compile ":scaffolding:2.1.2"
         compile ':cache:1.1.7'
-        compile ":asset-pipeline:1.9.7"
+        compile ":asset-pipeline:1.9.9"
         compile ":shiro:1.2.1"
 
         // Plugins to be excluded from WAR
