@@ -10,6 +10,7 @@ class SignupController {
     def index() {
         User user = new User()
         user: user
+
     }
 
     def register(RegistrationCommand rc) {

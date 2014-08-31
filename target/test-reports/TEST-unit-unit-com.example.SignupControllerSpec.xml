@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="Dell" name="com.example.SignupControllerSpec" tests="1" time="1.453" timestamp="2014-08-25T08:23:16">
+<testsuite errors="0" failures="1" hostname="Dell" name="com.example.SignupControllerSpec" tests="1" time="1.781" timestamp="2014-08-25T15:24:54">
   <properties />
-  <testcase classname="com.example.SignupControllerSpec" name="Test the index action returns the correct model" time="1.438">
-    <error message="No such property: user for class: com.example.User" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: user for class: com.example.User
-	at com.example.SignupControllerSpec.Test the index action returns the correct model(SignupControllerSpec.groovy:25)
-</error>
+  <testcase classname="com.example.SignupControllerSpec" name="Test the index action" time="1.763">
+    <failure message="Condition not satisfied:&#xa;&#xa;response.text==&apos;Register&apos;&#xa;|        |   |&#xa;|        &quot;&quot;  false&#xa;|            8 differences (0% similarity)&#xa;|            (--------)&#xa;|            (Register)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@57ce7299&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text==&apos;Register&apos;
+|        |   |
+|        &quot;&quot;  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@57ce7299
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+</failure>
   </testcase>
-  <system-out><![CDATA[--Output from Test the index action returns the correct model--
+  <system-out><![CDATA[--Output from Test the index action--
 ]]></system-out>
-  <system-err><![CDATA[--Output from Test the index action returns the correct model--
+  <system-err><![CDATA[--Output from Test the index action--
 ]]></system-err>
 </testsuite>

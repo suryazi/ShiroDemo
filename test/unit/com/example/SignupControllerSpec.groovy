@@ -16,12 +16,12 @@ class SignupControllerSpec extends Specification {
     	params["password"]="password"
     }
 
-   /* void "Test the index action returns the correct model"(){
+    void "Test the index action"(){
 
     	when:"The index action is executed"
     		controller.index()
 
-    	then:"The model is correct"
-    		user!=null
-    }*/
+    	then:"The index view is displayed"
+    		response.text=='Register'
+    }
 }

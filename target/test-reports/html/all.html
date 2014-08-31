@@ -19,7 +19,7 @@
                         tests
                     
                         with
-                        one error
+                        one failure
                         .
                     </p>
 </div>
@@ -43,31 +43,49 @@
 </nav>
 </div>
 <div class="clear"></div>
-<div class="testsuite error">
+<div class="testsuite failure">
 <div class="header">
 <h2>SignupControllerSpec</h2>
 <h3>
                         A single test executed
                     
                         with
-                        one error
+                        one failure
                         .
                     </h3>
 </div>
-<div class="testcase clearfix error grid_8 alpha omega" data-name="Test the index action returns the correct model">
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="Test the index action">
 <div class="grid_3 alpha">
 <p>
-<span class="icon error"></span><b class="testname message error">Test the index action returns the correct model</b>
+<span class="icon failure"></span><b class="testname message failure">Test the index action</b>
 </p>
-<p class="summary">Executed in 1.438 seconds.</p>
+<p class="summary">Executed in 1.763 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo">
 <div class="details">
 <p>
-<b class="message">No such property: user for class: com.example.User</b>
+<b class="message">Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@57ce7299
+</b>
 </p>
-<pre>groovy.lang.MissingPropertyException: No such property: user for class: com.example.User
-	at com.example.SignupControllerSpec.Test the index action returns the correct model(SignupControllerSpec.groovy:25)
+<pre>junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@57ce7299
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
 </pre>
 </div>
 </div>
@@ -76,12 +94,12 @@
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from Test the index action returns the correct model--
+<pre class="stdout">--Output from Test the index action--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from Test the index action returns the correct model--
+<pre class="syserr">--Output from Test the index action--
 </pre>
 </div>
 </div>
@@ -103,7 +121,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Permission all constraints acl is nullable</b>
 </p>
-<p class="summary">Executed in 2.925 seconds.</p>
+<p class="summary">Executed in 3.623 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -113,7 +131,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Permission all constraints acl is nullable</b>
 </p>
-<p class="summary">Executed in 0.156 seconds.</p>
+<p class="summary">Executed in 0.155 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -123,7 +141,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Permission all constraints acl is unique</b>
 </p>
-<p class="summary">Executed in 0.719 seconds.</p>
+<p class="summary">Executed in 0.983 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -133,7 +151,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Permission all constraints acl is valid</b>
 </p>
-<p class="summary">Executed in 0.125 seconds.</p>
+<p class="summary">Executed in 0.148 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -143,7 +161,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Permission acl using  results in false</b>
 </p>
-<p class="summary">Executed in 0.078 seconds.</p>
+<p class="summary">Executed in 0.12 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -153,7 +171,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Permission acl using aaaaaaaaaaaaaaa results in true</b>
 </p>
-<p class="summary">Executed in 0.079 seconds.</p>
+<p class="summary">Executed in 0.095 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -163,7 +181,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Permission user testing valid</b>
 </p>
-<p class="summary">Executed in 0.078 seconds.</p>
+<p class="summary">Executed in 0.086 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -173,7 +191,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Permission user testing valid</b>
 </p>
-<p class="summary">Executed in 0.047 seconds.</p>
+<p class="summary">Executed in 0.09 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -183,7 +201,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Permission role testing valid</b>
 </p>
-<p class="summary">Executed in 0.047 seconds.</p>
+<p class="summary">Executed in 0.087 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -193,7 +211,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Permission role testing valid</b>
 </p>
-<p class="summary">Executed in 0.078 seconds.</p>
+<p class="summary">Executed in 0.102 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -246,7 +264,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Role all constraints name is nullable</b>
 </p>
-<p class="summary">Executed in 0.203 seconds.</p>
+<p class="summary">Executed in 0.176 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -256,7 +274,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Role all constraints name is nullable</b>
 </p>
-<p class="summary">Executed in 0.078 seconds.</p>
+<p class="summary">Executed in 0.063 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -266,7 +284,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Role all constraints name is unique</b>
 </p>
-<p class="summary">Executed in 0.062 seconds.</p>
+<p class="summary">Executed in 0.064 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -276,7 +294,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Role all constraints name is valid</b>
 </p>
-<p class="summary">Executed in 0.047 seconds.</p>
+<p class="summary">Executed in 0.06 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -286,7 +304,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Role name using  results in false</b>
 </p>
-<p class="summary">Executed in 0.063 seconds.</p>
+<p class="summary">Executed in 0.057 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -296,7 +314,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Role name using aaaaaaaaaaaaaaa results in true</b>
 </p>
-<p class="summary">Executed in 0.047 seconds.</p>
+<p class="summary">Executed in 0.061 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -306,7 +324,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Role user testing valid</b>
 </p>
-<p class="summary">Executed in 0.047 seconds.</p>
+<p class="summary">Executed in 0.059 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -316,7 +334,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Role user testing valid</b>
 </p>
-<p class="summary">Executed in 0.047 seconds.</p>
+<p class="summary">Executed in 0.054 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -326,7 +344,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Role permission testing valid</b>
 </p>
-<p class="summary">Executed in 0.031 seconds.</p>
+<p class="summary">Executed in 0.052 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -336,7 +354,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Role permission testing valid</b>
 </p>
-<p class="summary">Executed in 0.031 seconds.</p>
+<p class="summary">Executed in 0.053 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -389,7 +407,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test User all constraints username is nullable</b>
 </p>
-<p class="summary">Executed in 0.14 seconds.</p>
+<p class="summary">Executed in 0.16 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -399,7 +417,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test User all constraints username is nullable</b>
 </p>
-<p class="summary">Executed in 0.047 seconds.</p>
+<p class="summary">Executed in 0.065 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -409,7 +427,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test User all constraints username is email</b>
 </p>
-<p class="summary">Executed in 0.047 seconds.</p>
+<p class="summary">Executed in 0.071 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -419,7 +437,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test User all constraints username is unique</b>
 </p>
-<p class="summary">Executed in 0.047 seconds.</p>
+<p class="summary">Executed in 0.066 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -429,7 +447,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test User all constraints username is valid</b>
 </p>
-<p class="summary">Executed in 0.047 seconds.</p>
+<p class="summary">Executed in 0.06 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -439,7 +457,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test User all constraints passwordHash is nullable</b>
 </p>
-<p class="summary">Executed in 0.047 seconds.</p>
+<p class="summary">Executed in 0.065 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -449,7 +467,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test User all constraints passwordHash is nullable</b>
 </p>
-<p class="summary">Executed in 0.047 seconds.</p>
+<p class="summary">Executed in 0.063 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -459,7 +477,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test User all constraints passwordSalt is nullable</b>
 </p>
-<p class="summary">Executed in 0.031 seconds.</p>
+<p class="summary">Executed in 0.064 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -469,7 +487,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test User all constraints passwordSalt is nullable</b>
 </p>
-<p class="summary">Executed in 0.047 seconds.</p>
+<p class="summary">Executed in 0.061 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -479,7 +497,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">User username using dexterm@m results in false</b>
 </p>
-<p class="summary">Executed in 0.062 seconds.</p>
+<p class="summary">Executed in 0.064 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -489,7 +507,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">User username using dexterm@miamipd.gov results in true</b>
 </p>
-<p class="summary">Executed in 0.032 seconds.</p>
+<p class="summary">Executed in 0.061 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -499,7 +517,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">User role testing valid</b>
 </p>
-<p class="summary">Executed in 0.046 seconds.</p>
+<p class="summary">Executed in 0.052 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -509,7 +527,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">User role testing valid</b>
 </p>
-<p class="summary">Executed in 0.047 seconds.</p>
+<p class="summary">Executed in 0.053 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -519,7 +537,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">User permission testing valid</b>
 </p>
-<p class="summary">Executed in 0.032 seconds.</p>
+<p class="summary">Executed in 0.045 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -529,7 +547,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">User permission testing valid</b>
 </p>
-<p class="summary">Executed in 0.046 seconds.</p>
+<p class="summary">Executed in 0.044 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>

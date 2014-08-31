@@ -1,5 +1,5 @@
 Testsuite: com.example.PermissionSpec
-Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 4.44 sec
+Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 5.593 sec
 ------------- Standard Output ---------------
 --Output from test Permission all constraints acl is nullable--
 --Output from test Permission all constraints acl is nullable--
@@ -25,13 +25,13 @@ Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 4.44 sec
 --Output from Permission role testing valid--
 ------------- ---------------- ---------------
 
-Testcase: test Permission all constraints acl is nullable took 2.925 sec
-Testcase: test Permission all constraints acl is nullable took 0.156 sec
-Testcase: test Permission all constraints acl is unique took 0.719 sec
-Testcase: test Permission all constraints acl is valid took 0.125 sec
-Testcase: Permission acl using  results in false took 0.078 sec
-Testcase: Permission acl using aaaaaaaaaaaaaaa results in true took 0.079 sec
-Testcase: Permission user testing valid took 0.078 sec
-Testcase: Permission user testing valid took 0.047 sec
-Testcase: Permission role testing valid took 0.047 sec
-Testcase: Permission role testing valid took 0.078 sec
+Testcase: test Permission all constraints acl is nullable took 3.623 sec
+Testcase: test Permission all constraints acl is nullable took 0.155 sec
+Testcase: test Permission all constraints acl is unique took 0.983 sec
+Testcase: test Permission all constraints acl is valid took 0.148 sec
+Testcase: Permission acl using  results in false took 0.12 sec
+Testcase: Permission acl using aaaaaaaaaaaaaaa results in true took 0.095 sec
+Testcase: Permission user testing valid took 0.086 sec
+Testcase: Permission user testing valid took 0.09 sec
+Testcase: Permission role testing valid took 0.087 sec
+Testcase: Permission role testing valid took 0.102 sec

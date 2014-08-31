@@ -1,15 +1,33 @@
 Testsuite: com.example.SignupControllerSpec
-Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 1.453 sec
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 1.781 sec
 ------------- Standard Output ---------------
---Output from Test the index action returns the correct model--
+--Output from Test the index action--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from Test the index action returns the correct model--
+--Output from Test the index action--
 ------------- ---------------- ---------------
 
-Testcase: Test the index action returns the correct model took 1.406 sec
-	Caused an ERROR
-No such property: user for class: com.example.User
-groovy.lang.MissingPropertyException: No such property: user for class: com.example.User
-	at com.example.SignupControllerSpec.Test the index action returns the correct model(SignupControllerSpec.groovy:25)
+Testcase: Test the index action took 1.737 sec
+	FAILED
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@57ce7299
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@57ce7299
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
 
