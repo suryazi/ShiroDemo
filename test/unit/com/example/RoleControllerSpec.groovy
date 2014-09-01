@@ -12,7 +12,11 @@ class RoleControllerSpec extends Specification {
     def populateValidParams(params) {
         assert params != null
         // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+        params["name"] = 'admin'
+    }
+
+    def populateValues(role, params){
+        role.name=params?.name
     }
 
     void "Test the index action returns the correct model"() {
@@ -49,7 +53,8 @@ class RoleControllerSpec extends Specification {
         when:"The save action is executed with a valid instance"
             response.reset()
             populateValidParams(params)
-            role = new Role(params)
+            role = new Role()
+            populateValues(role,params)
 
             controller.save(role)
 
@@ -68,7 +73,8 @@ class RoleControllerSpec extends Specification {
 
         when:"A domain instance is passed to the show action"
             populateValidParams(params)
-            def role = new Role(params)
+            def role = new Role()
+            populateValues(role,params)
             controller.show(role)
 
         then:"A model is populated containing the domain instance"
@@ -84,7 +90,8 @@ class RoleControllerSpec extends Specification {
 
         when:"A domain instance is passed to the edit action"
             populateValidParams(params)
-            def role = new Role(params)
+            def role = new Role()
+            populateValues(role,params)
             controller.edit(role)
 
         then:"A model is populated containing the domain instance"
@@ -115,7 +122,9 @@ class RoleControllerSpec extends Specification {
         when:"A valid domain instance is passed to the update action"
             response.reset()
             populateValidParams(params)
-            role = new Role(params).save(flush: true)
+            role = new Role()
+            populateValues(role,params)
+            role.save(flush:true)
             controller.update(role)
 
         then:"A redirect is issues to the show action"
@@ -136,7 +145,9 @@ class RoleControllerSpec extends Specification {
         when:"A domain instance is created"
             response.reset()
             populateValidParams(params)
-            def role = new Role(params).save(flush: true)
+            def role = new Role()
+            populateValues(role,params)
+            role.save(flush:true)
 
         then:"It exists"
             Role.count() == 1

@@ -2,8 +2,8 @@ package com.example
 
 
 
-import grails.test.mixin.*
-import spock.lang.*
+import grails.test.mixin.TestFor
+import spock.lang.Specification
 
 @TestFor(PermissionController)
 @Mock(Permission)
@@ -12,7 +12,11 @@ class PermissionControllerSpec extends Specification {
     def populateValidParams(params) {
         assert params != null
         // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+        params["acl"] = '*:*'
+    }
+
+    def populateValues(permission, params){
+        permission.acl=params?.acl
     }
 
     void "Test the index action returns the correct model"() {
@@ -49,7 +53,8 @@ class PermissionControllerSpec extends Specification {
         when:"The save action is executed with a valid instance"
             response.reset()
             populateValidParams(params)
-            permission = new Permission(params)
+            permission = new Permission()
+            populateValues(permission,params)
 
             controller.save(permission)
 
@@ -68,7 +73,8 @@ class PermissionControllerSpec extends Specification {
 
         when:"A domain instance is passed to the show action"
             populateValidParams(params)
-            def permission = new Permission(params)
+            def permission = new Permission()
+            populateValues(permission,params)
             controller.show(permission)
 
         then:"A model is populated containing the domain instance"
@@ -84,7 +90,8 @@ class PermissionControllerSpec extends Specification {
 
         when:"A domain instance is passed to the edit action"
             populateValidParams(params)
-            def permission = new Permission(params)
+            def permission = new Permission()
+            populateValues(permission,params)
             controller.edit(permission)
 
         then:"A model is populated containing the domain instance"
@@ -115,7 +122,9 @@ class PermissionControllerSpec extends Specification {
         when:"A valid domain instance is passed to the update action"
             response.reset()
             populateValidParams(params)
-            permission = new Permission(params).save(flush: true)
+            permission = new Permission()
+            populateValues(permission,params)
+            permission.save(flush: true)
             controller.update(permission)
 
         then:"A redirect is issues to the show action"
@@ -136,7 +145,9 @@ class PermissionControllerSpec extends Specification {
         when:"A domain instance is created"
             response.reset()
             populateValidParams(params)
-            def permission = new Permission(params).save(flush: true)
+            def permission = new Permission()
+            populateValues(permission,params)
+            permission.save(flush:true)
 
         then:"It exists"
             Permission.count() == 1

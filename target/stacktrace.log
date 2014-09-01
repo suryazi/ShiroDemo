@@ -6467,3 +6467,1725 @@ Cannot resolve which method to invoke for [null] due to overlapping prototypes b
 	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
 	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
 	at java.lang.Thread.run(Thread.java:744)
+2014-09-01 10:51:15,161 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.Role(name:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.codehaus.groovy.grails.plugins.web.api.ControllersApi.redirect(ControllersApi.java:276)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at com.example.RoleController.tt__save_closure9_closure14(RoleController.groovy:43)
+	at com.example.RoleController.tt__save_closure9_closure14(RoleController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:417)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.getResponseForFormat(MimeTypesApiSupport.groovy:142)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormatInternal(MimeTypesApiSupport.groovy:57)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormat(MimeTypesApiSupport.groovy:40)
+	at org.codehaus.groovy.grails.plugins.web.api.RequestMimeTypesApi.withFormat(RequestMimeTypesApi.groovy:95)
+	at com.example.RoleController.$tt__save(RoleController.groovy:40)
+	at com.example.RoleController.save_closure4(RoleController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:439)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate$2.doInTransaction(GrailsTransactionTemplate.groovy:88)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate.execute(GrailsTransactionTemplate.groovy:85)
+	at com.example.RoleControllerSpec.Test the save action correctly persists an instance(RoleControllerSpec.groovy:54)
+2014-09-01 10:51:15,164 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.Role(name:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.RoleController.tt__save_closure9_closure14(RoleController.groovy:43)
+	at com.example.RoleController.$tt__save(RoleController.groovy:40)
+	at com.example.RoleControllerSpec.Test the save action correctly persists an instance(RoleControllerSpec.groovy:54)
+2014-09-01 10:51:15,167 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.Role(name:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.RoleController.tt__save_closure9_closure14(RoleController.groovy:43)
+	at com.example.RoleController.$tt__save(RoleController.groovy:40)
+	at com.example.RoleControllerSpec.Test the save action correctly persists an instance(RoleControllerSpec.groovy:54)
+2014-09-01 10:51:15,167 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.Role(name:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.RoleController.tt__save_closure9_closure14(RoleController.groovy:43)
+	at com.example.RoleController.$tt__save(RoleController.groovy:40)
+	at com.example.RoleControllerSpec.Test the save action correctly persists an instance(RoleControllerSpec.groovy:54)
+2014-09-01 10:51:15,181 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.Role(name:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.RoleController.tt__save_closure9_closure14(RoleController.groovy:43)
+	at com.example.RoleController.$tt__save(RoleController.groovy:40)
+	at com.example.RoleControllerSpec.Test the save action correctly persists an instance(RoleControllerSpec.groovy:54)
+2014-09-01 10:51:15,181 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.Role(name:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.RoleController.tt__save_closure9_closure14(RoleController.groovy:43)
+	at com.example.RoleController.$tt__save(RoleController.groovy:40)
+	at com.example.RoleControllerSpec.Test the save action correctly persists an instance(RoleControllerSpec.groovy:54)
+2014-09-01 10:51:15,325 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.RoleControllerSpec.Test the update action performs an update on a valid domain instance(RoleControllerSpec.groovy:122)
+2014-09-01 10:51:15,325 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.RoleControllerSpec.Test the update action performs an update on a valid domain instance(RoleControllerSpec.groovy:122)
+2014-09-01 10:51:15,326 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.RoleControllerSpec.Test the update action performs an update on a valid domain instance(RoleControllerSpec.groovy:122)
+2014-09-01 10:51:15,326 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.RoleControllerSpec.Test the update action performs an update on a valid domain instance(RoleControllerSpec.groovy:122)
+2014-09-01 10:51:15,326 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.RoleControllerSpec.Test the update action performs an update on a valid domain instance(RoleControllerSpec.groovy:122)
+2014-09-01 10:51:15,326 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.RoleControllerSpec.Test the update action performs an update on a valid domain instance(RoleControllerSpec.groovy:122)
+2014-09-01 10:51:15,478 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Role.count() == 1
+     |       |
+     0       false
+
+	at com.example.RoleControllerSpec.Test that the delete action deletes an instance if it exists(RoleControllerSpec.groovy:142)
+2014-09-01 10:51:15,484 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Role.count() == 1
+     |       |
+     0       false
+
+	at com.example.RoleControllerSpec.Test that the delete action deletes an instance if it exists(RoleControllerSpec.groovy:142)
+2014-09-01 10:51:15,484 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Role.count() == 1
+     |       |
+     0       false
+
+	at com.example.RoleControllerSpec.Test that the delete action deletes an instance if it exists(RoleControllerSpec.groovy:142)
+2014-09-01 10:51:15,484 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Role.count() == 1
+     |       |
+     0       false
+
+	at com.example.RoleControllerSpec.Test that the delete action deletes an instance if it exists(RoleControllerSpec.groovy:142)
+2014-09-01 10:51:15,485 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Role.count() == 1
+     |       |
+     0       false
+
+	at com.example.RoleControllerSpec.Test that the delete action deletes an instance if it exists(RoleControllerSpec.groovy:142)
+2014-09-01 10:51:15,485 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Role.count() == 1
+     |       |
+     0       false
+
+	at com.example.RoleControllerSpec.Test that the delete action deletes an instance if it exists(RoleControllerSpec.groovy:142)
+2014-09-01 10:51:16,357 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@717b11a9
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 10:51:16,365 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@717b11a9
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 10:51:16,366 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@717b11a9
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 10:51:16,366 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@717b11a9
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 10:51:16,366 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@717b11a9
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 10:51:16,366 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@717b11a9
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 10:51:16,751 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.codehaus.groovy.grails.plugins.web.api.ControllersApi.redirect(ControllersApi.java:276)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:417)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.getResponseForFormat(MimeTypesApiSupport.groovy:142)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormatInternal(MimeTypesApiSupport.groovy:57)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormat(MimeTypesApiSupport.groovy:40)
+	at org.codehaus.groovy.grails.plugins.web.api.RequestMimeTypesApi.withFormat(RequestMimeTypesApi.groovy:95)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserController.save_closure4(UserController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:439)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate$2.doInTransaction(GrailsTransactionTemplate.groovy:88)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate.execute(GrailsTransactionTemplate.groovy:85)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-01 10:51:16,751 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-01 10:51:16,751 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-01 10:51:16,751 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-01 10:51:16,752 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-01 10:51:16,752 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-01 10:51:17,933 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-01 10:51:17,933 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-01 10:51:17,934 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-01 10:51:17,934 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-01 10:51:17,934 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-01 10:51:17,934 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-01 10:51:17,969 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-01 10:51:17,970 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-01 10:51:17,970 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-01 10:51:17,970 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-01 10:51:17,970 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-01 10:51:17,971 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-01 10:56:59,746 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@43085af0
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 10:56:59,766 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@43085af0
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 10:56:59,768 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@43085af0
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 10:56:59,769 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@43085af0
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 10:56:59,777 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@43085af0
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 10:56:59,778 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@43085af0
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 10:57:00,214 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.codehaus.groovy.grails.plugins.web.api.ControllersApi.redirect(ControllersApi.java:276)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:417)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.getResponseForFormat(MimeTypesApiSupport.groovy:142)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormatInternal(MimeTypesApiSupport.groovy:57)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormat(MimeTypesApiSupport.groovy:40)
+	at org.codehaus.groovy.grails.plugins.web.api.RequestMimeTypesApi.withFormat(RequestMimeTypesApi.groovy:95)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserController.save_closure4(UserController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:439)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate$2.doInTransaction(GrailsTransactionTemplate.groovy:88)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate.execute(GrailsTransactionTemplate.groovy:85)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-01 10:57:00,214 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-01 10:57:00,215 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-01 10:57:00,215 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-01 10:57:00,215 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-01 10:57:00,215 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-01 10:57:00,360 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-01 10:57:00,360 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-01 10:57:00,361 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-01 10:57:00,361 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-01 10:57:00,361 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-01 10:57:00,361 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-01 10:57:00,397 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-01 10:57:00,397 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-01 10:57:00,397 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-01 10:57:00,397 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-01 10:57:00,398 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-01 10:57:00,398 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-01 11:02:42,703 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3de760ab
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:02:42,724 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3de760ab
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:02:42,727 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3de760ab
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:02:42,727 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3de760ab
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:02:42,738 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3de760ab
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:02:42,738 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3de760ab
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:02:43,142 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/user/show/1'
+|        |             |
+|        null          false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@e6977d5
+
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:65)
+2014-09-01 11:02:43,142 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/user/show/1'
+|        |             |
+|        null          false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@e6977d5
+
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:65)
+2014-09-01 11:02:43,143 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/user/show/1'
+|        |             |
+|        null          false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@e6977d5
+
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:65)
+2014-09-01 11:02:43,143 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/user/show/1'
+|        |             |
+|        null          false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@e6977d5
+
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:65)
+2014-09-01 11:02:43,143 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/user/show/1'
+|        |             |
+|        null          false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@e6977d5
+
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:65)
+2014-09-01 11:02:43,143 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/user/show/1'
+|        |             |
+|        null          false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@e6977d5
+
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:65)
+2014-09-01 11:02:43,318 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:130)
+2014-09-01 11:02:43,318 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:130)
+2014-09-01 11:02:43,318 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:130)
+2014-09-01 11:02:43,319 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:130)
+2014-09-01 11:02:43,319 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:130)
+2014-09-01 11:02:43,319 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:130)
+2014-09-01 11:02:43,369 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:150)
+2014-09-01 11:02:43,370 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:150)
+2014-09-01 11:02:43,370 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:150)
+2014-09-01 11:02:43,370 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:150)
+2014-09-01 11:02:43,371 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:150)
+2014-09-01 11:02:43,371 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:150)
+2014-09-01 11:10:31,844 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ee1d6a3
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:10:31,863 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ee1d6a3
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:10:31,866 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ee1d6a3
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:10:31,866 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ee1d6a3
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:10:31,875 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ee1d6a3
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:10:31,875 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ee1d6a3
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:10:32,355 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:someValidName, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.codehaus.groovy.grails.plugins.web.api.ControllersApi.redirect(ControllersApi.java:276)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:417)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.getResponseForFormat(MimeTypesApiSupport.groovy:142)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormatInternal(MimeTypesApiSupport.groovy:57)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormat(MimeTypesApiSupport.groovy:40)
+	at org.codehaus.groovy.grails.plugins.web.api.RequestMimeTypesApi.withFormat(RequestMimeTypesApi.groovy:95)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserController.save_closure4(UserController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:439)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate$2.doInTransaction(GrailsTransactionTemplate.groovy:88)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate.execute(GrailsTransactionTemplate.groovy:85)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:62)
+2014-09-01 11:10:32,356 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:someValidName, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:62)
+2014-09-01 11:10:32,356 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:someValidName, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:62)
+2014-09-01 11:10:32,356 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:someValidName, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:62)
+2014-09-01 11:10:32,357 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:someValidName, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:62)
+2014-09-01 11:10:32,357 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:someValidName, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:62)
+2014-09-01 11:10:32,502 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:130)
+2014-09-01 11:10:32,502 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:130)
+2014-09-01 11:10:32,502 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:130)
+2014-09-01 11:10:32,502 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:130)
+2014-09-01 11:10:32,503 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:130)
+2014-09-01 11:10:32,503 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:130)
+2014-09-01 11:10:32,541 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:150)
+2014-09-01 11:10:32,542 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:150)
+2014-09-01 11:10:32,543 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:150)
+2014-09-01 11:10:32,543 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:150)
+2014-09-01 11:10:32,543 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:150)
+2014-09-01 11:10:32,543 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:150)
+2014-09-01 11:14:07,043 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@634f4a83
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:14:07,061 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@634f4a83
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:14:07,064 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@634f4a83
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:14:07,064 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@634f4a83
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:14:07,072 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@634f4a83
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:14:07,072 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@634f4a83
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:21:26,509 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the show action returns the correct model(PermissionControllerSpec.groovy:76)
+2014-09-01 11:21:26,579 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the show action returns the correct model(PermissionControllerSpec.groovy:76)
+2014-09-01 11:21:26,589 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the show action returns the correct model(PermissionControllerSpec.groovy:76)
+2014-09-01 11:21:26,593 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the show action returns the correct model(PermissionControllerSpec.groovy:76)
+2014-09-01 11:21:26,618 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the show action returns the correct model(PermissionControllerSpec.groovy:76)
+2014-09-01 11:21:26,622 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the show action returns the correct model(PermissionControllerSpec.groovy:76)
+2014-09-01 11:21:26,677 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the edit action returns the correct model(PermissionControllerSpec.groovy:93)
+2014-09-01 11:21:26,678 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the edit action returns the correct model(PermissionControllerSpec.groovy:93)
+2014-09-01 11:21:26,678 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the edit action returns the correct model(PermissionControllerSpec.groovy:93)
+2014-09-01 11:21:26,679 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the edit action returns the correct model(PermissionControllerSpec.groovy:93)
+2014-09-01 11:21:26,680 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the edit action returns the correct model(PermissionControllerSpec.groovy:93)
+2014-09-01 11:21:26,680 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the edit action returns the correct model(PermissionControllerSpec.groovy:93)
+2014-09-01 11:21:26,880 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the delete action deletes an instance if it exists(PermissionControllerSpec.groovy:148)
+2014-09-01 11:21:26,881 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the delete action deletes an instance if it exists(PermissionControllerSpec.groovy:148)
+2014-09-01 11:21:26,882 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the delete action deletes an instance if it exists(PermissionControllerSpec.groovy:148)
+2014-09-01 11:21:26,882 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the delete action deletes an instance if it exists(PermissionControllerSpec.groovy:148)
+2014-09-01 11:21:26,883 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the delete action deletes an instance if it exists(PermissionControllerSpec.groovy:148)
+2014-09-01 11:21:26,883 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: permission for class: com.example.PermissionControllerSpec
+	at com.example.PermissionControllerSpec.Test that the delete action deletes an instance if it exists(PermissionControllerSpec.groovy:148)
+2014-09-01 11:21:29,893 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@313e9d4d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:21:29,907 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@313e9d4d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:21:29,907 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@313e9d4d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:21:29,907 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@313e9d4d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:21:29,908 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@313e9d4d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:21:29,908 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@313e9d4d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:30:23,924 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3f51f8f9
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:30:23,946 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3f51f8f9
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:30:23,948 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3f51f8f9
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:30:23,949 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3f51f8f9
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:30:23,956 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3f51f8f9
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:30:23,957 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3f51f8f9
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:34:08,779 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@64786571
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:34:08,804 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@64786571
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:34:08,808 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@64786571
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:34:08,808 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@64786571
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:34:08,816 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@64786571
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:34:08,816 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@64786571
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:41:03,242 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@64b80e0a
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:41:03,262 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@64b80e0a
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:41:03,265 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@64b80e0a
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:41:03,265 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@64b80e0a
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:41:03,275 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@64b80e0a
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:41:03,275 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@64b80e0a
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:49:24,870 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@25cbd8cd
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:49:24,895 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@25cbd8cd
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:49:24,898 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@25cbd8cd
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:49:24,898 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@25cbd8cd
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:49:24,907 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@25cbd8cd
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:49:24,907 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@25cbd8cd
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:53:22,442 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@717b2fdb
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:53:22,458 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@717b2fdb
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:53:22,461 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@717b2fdb
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:53:22,461 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@717b2fdb
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:53:22,469 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@717b2fdb
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:53:22,469 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@717b2fdb
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:55:20,645 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@72e9638d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:55:20,678 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@72e9638d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:55:20,680 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@72e9638d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:55:20,681 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@72e9638d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:55:20,688 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@72e9638d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:55:20,688 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@72e9638d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:55:21,155 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:admintest.com, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.codehaus.groovy.grails.plugins.web.api.ControllersApi.redirect(ControllersApi.java:276)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:417)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.getResponseForFormat(MimeTypesApiSupport.groovy:142)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormatInternal(MimeTypesApiSupport.groovy:57)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormat(MimeTypesApiSupport.groovy:40)
+	at org.codehaus.groovy.grails.plugins.web.api.RequestMimeTypesApi.withFormat(RequestMimeTypesApi.groovy:95)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserController.save_closure4(UserController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:439)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate$2.doInTransaction(GrailsTransactionTemplate.groovy:88)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate.execute(GrailsTransactionTemplate.groovy:85)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:63)
+2014-09-01 11:55:21,156 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:admintest.com, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:63)
+2014-09-01 11:55:21,156 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:admintest.com, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:63)
+2014-09-01 11:55:21,156 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:admintest.com, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:63)
+2014-09-01 11:55:21,156 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:admintest.com, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:63)
+2014-09-01 11:55:21,156 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [com.example.User(username:admintest.com, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.example.UserController.tt__save_closure9_closure14(UserController.groovy:43)
+	at com.example.UserController.$tt__save(UserController.groovy:40)
+	at com.example.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:63)
+2014-09-01 11:55:21,294 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == "/user/show/$user.id"
+|        |             |               |    |
+|        null          false           |    null
+|                                      com.example.User(username:admintest.com, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@26a20e1f
+
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:135)
+2014-09-01 11:55:21,295 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == "/user/show/$user.id"
+|        |             |               |    |
+|        null          false           |    null
+|                                      com.example.User(username:admintest.com, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@26a20e1f
+
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:135)
+2014-09-01 11:55:21,295 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == "/user/show/$user.id"
+|        |             |               |    |
+|        null          false           |    null
+|                                      com.example.User(username:admintest.com, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@26a20e1f
+
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:135)
+2014-09-01 11:55:21,296 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == "/user/show/$user.id"
+|        |             |               |    |
+|        null          false           |    null
+|                                      com.example.User(username:admintest.com, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@26a20e1f
+
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:135)
+2014-09-01 11:55:21,296 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == "/user/show/$user.id"
+|        |             |               |    |
+|        null          false           |    null
+|                                      com.example.User(username:admintest.com, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@26a20e1f
+
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:135)
+2014-09-01 11:55:21,296 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == "/user/show/$user.id"
+|        |             |               |    |
+|        null          false           |    null
+|                                      com.example.User(username:admintest.com, passwordHash:iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA==, passwordSalt:[44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112], dateCreated:null, lastUpdated:null)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@26a20e1f
+
+	at com.example.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:135)
+2014-09-01 11:55:21,332 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:157)
+2014-09-01 11:55:21,332 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:157)
+2014-09-01 11:55:21,332 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:157)
+2014-09-01 11:55:21,333 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:157)
+2014-09-01 11:55:21,333 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:157)
+2014-09-01 11:55:21,333 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at com.example.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:157)
+2014-09-01 11:57:33,758 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@53e7e53d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:57:33,805 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@53e7e53d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:57:33,807 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@53e7e53d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:57:33,807 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@53e7e53d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:57:33,816 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@53e7e53d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 11:57:33,816 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@53e7e53d
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)

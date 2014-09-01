@@ -12,7 +12,15 @@ class UserControllerSpec extends Specification {
     def populateValidParams(params) {
         assert params != null
         // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+        params["username"] = 'admin@test.com'
+        params["passwordHash"] = 'iwZlCopLnG8r/OLhvCjN8b99nPZfc02R6dzZrMh8ksQ+2Sjnn2YUoCaLCPTk2iY+qDKi3haum11LqoIhFNKePA=='
+        params["passwordSalt"] = [44, 88, 66, -126, 0, 58, 7, 78, 117, -105, -76, 71, 86, -30, 94, -112]
+    }
+
+    def populateValues(user, params){
+        user.username=params?.username
+        user.passwordHash=params?.passwordHash
+        user.passwordSalt=params?.passwordSalt
     }
 
     void "Test the index action returns the correct model"() {
@@ -49,7 +57,8 @@ class UserControllerSpec extends Specification {
         when:"The save action is executed with a valid instance"
             response.reset()
             populateValidParams(params)
-            user = new User(params)
+            user = new User()
+            populateValues(user,params)
 
             controller.save(user)
 
@@ -68,7 +77,8 @@ class UserControllerSpec extends Specification {
 
         when:"A domain instance is passed to the show action"
             populateValidParams(params)
-            def user = new User(params)
+            def user = new User()
+            populateValues(user,params)
             controller.show(user)
 
         then:"A model is populated containing the domain instance"
@@ -84,7 +94,8 @@ class UserControllerSpec extends Specification {
 
         when:"A domain instance is passed to the edit action"
             populateValidParams(params)
-            def user = new User(params)
+            def user = new User()
+            populateValues(user,params)
             controller.edit(user)
 
         then:"A model is populated containing the domain instance"
@@ -115,7 +126,9 @@ class UserControllerSpec extends Specification {
         when:"A valid domain instance is passed to the update action"
             response.reset()
             populateValidParams(params)
-            user = new User(params).save(flush: true)
+            user = new User()
+            populateValues(user,params)
+            user.save(flush:true)
             controller.update(user)
 
         then:"A redirect is issues to the show action"
@@ -136,7 +149,9 @@ class UserControllerSpec extends Specification {
         when:"A domain instance is created"
             response.reset()
             populateValidParams(params)
-            def user = new User(params).save(flush: true)
+            def user = new User()
+            populateValues(user,params)
+            user.save(flush:true)
 
         then:"It exists"
             User.count() == 1
