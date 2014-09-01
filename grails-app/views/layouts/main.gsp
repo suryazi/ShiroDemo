@@ -12,7 +12,7 @@
 		<link rel="shortcut icon" href="${assetPath(src: 'favicon.ico')}" type="image/x-icon">
 		<link rel="apple-touch-icon" href="${assetPath(src: 'apple-touch-icon.png')}">
 		<link rel="apple-touch-icon" sizes="114x114" href="${assetPath(src: 'apple-touch-icon-retina.png')}">
-  		<asset:stylesheet src="application.css"/>
+    <asset:stylesheet src="application.css"/>
 		<asset:javascript src="application.js"/>
 		<g:layoutHead/>
 	</head>
@@ -33,9 +33,9 @@
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><g:link controller="Permission">Permission</g:link></li>
-              <li><a href="#role">Role</a></li>
-              <li><a href="#user">User</a></li>
+              <li><g:link controller="Permission">Permission</g:link></li>
+              <li><g:link controller="Role">Role</g:link></li>
+              <li><g:link controller="User">User</g:link></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
