@@ -8,6 +8,8 @@ class User {
     String username
     String passwordHash
     byte[] passwordSalt
+    Date dateCreated
+    Date lastUpdated
     
     static hasMany = [ roles: Role, permissions: Permission ]
 

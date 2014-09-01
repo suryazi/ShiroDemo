@@ -5,8 +5,9 @@ import groovy.transform.ToString
 @EqualsAndHashCode
 @ToString(includeNames = true, includeFields = true)
 class Permission {
-
     String acl
+    Date dateCreated
+    Date lastUpdated
 
     static constraints = {
         acl(nullable: false, blank: false, unique: true)

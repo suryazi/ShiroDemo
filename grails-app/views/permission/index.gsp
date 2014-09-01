@@ -26,6 +26,10 @@
 					
 						<g:sortableColumn property="acl" title="${message(code: 'permission.acl.label', default: 'Acl')}" />
 					
+						<g:sortableColumn property="dateCreated" title="${message(code: 'permission.dateCreated.label', default: 'Date Created')}" />
+					
+						<g:sortableColumn property="lastUpdated" title="${message(code: 'permission.lastUpdated.label', default: 'Last Updated')}" />
+					
 					</tr>
 				</thead>
 				<tbody>
@@ -33,6 +37,10 @@
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
 						<td><g:link action="show" id="${permissionInstance.id}">${fieldValue(bean: permissionInstance, field: "acl")}</g:link></td>
+					
+						<td><g:formatDate date="${permissionInstance.dateCreated}" /></td>
+					
+						<td><g:formatDate date="${permissionInstance.lastUpdated}" /></td>
 					
 					</tr>
 				</g:each>

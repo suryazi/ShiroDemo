@@ -30,6 +30,10 @@
 					
 						<g:sortableColumn property="passwordSalt" title="${message(code: 'user.passwordSalt.label', default: 'Password Salt')}" />
 					
+						<g:sortableColumn property="dateCreated" title="${message(code: 'user.dateCreated.label', default: 'Date Created')}" />
+					
+						<g:sortableColumn property="lastUpdated" title="${message(code: 'user.lastUpdated.label', default: 'Last Updated')}" />
+					
 					</tr>
 				</thead>
 				<tbody>
@@ -41,6 +45,10 @@
 						<td>${fieldValue(bean: userInstance, field: "passwordHash")}</td>
 					
 						<td>${fieldValue(bean: userInstance, field: "passwordSalt")}</td>
+					
+						<td><g:formatDate date="${userInstance.dateCreated}" /></td>
+					
+						<td><g:formatDate date="${userInstance.lastUpdated}" /></td>
 					
 					</tr>
 				</g:each>

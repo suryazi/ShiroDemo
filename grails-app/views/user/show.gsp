@@ -48,6 +48,24 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${userInstance?.dateCreated}">
+				<li class="fieldcontain">
+					<span id="dateCreated-label" class="property-label"><g:message code="user.dateCreated.label" default="Date Created" /></span>
+					
+						<span class="property-value" aria-labelledby="dateCreated-label"><g:formatDate date="${userInstance?.dateCreated}" /></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${userInstance?.lastUpdated}">
+				<li class="fieldcontain">
+					<span id="lastUpdated-label" class="property-label"><g:message code="user.lastUpdated.label" default="Last Updated" /></span>
+					
+						<span class="property-value" aria-labelledby="lastUpdated-label"><g:formatDate date="${userInstance?.lastUpdated}" /></span>
+					
+				</li>
+				</g:if>
+			
 				<g:if test="${userInstance?.permissions}">
 				<li class="fieldcontain">
 					<span id="permissions-label" class="property-label"><g:message code="user.permissions.label" default="Permissions" /></span>

@@ -32,6 +32,24 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${roleInstance?.dateCreated}">
+				<li class="fieldcontain">
+					<span id="dateCreated-label" class="property-label"><g:message code="role.dateCreated.label" default="Date Created" /></span>
+					
+						<span class="property-value" aria-labelledby="dateCreated-label"><g:formatDate date="${roleInstance?.dateCreated}" /></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${roleInstance?.lastUpdated}">
+				<li class="fieldcontain">
+					<span id="lastUpdated-label" class="property-label"><g:message code="role.lastUpdated.label" default="Last Updated" /></span>
+					
+						<span class="property-value" aria-labelledby="lastUpdated-label"><g:formatDate date="${roleInstance?.lastUpdated}" /></span>
+					
+				</li>
+				</g:if>
+			
 				<g:if test="${roleInstance?.permissions}">
 				<li class="fieldcontain">
 					<span id="permissions-label" class="property-label"><g:message code="role.permissions.label" default="Permissions" /></span>

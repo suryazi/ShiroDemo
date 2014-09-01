@@ -26,6 +26,10 @@
 					
 						<g:sortableColumn property="name" title="${message(code: 'role.name.label', default: 'Name')}" />
 					
+						<g:sortableColumn property="dateCreated" title="${message(code: 'role.dateCreated.label', default: 'Date Created')}" />
+					
+						<g:sortableColumn property="lastUpdated" title="${message(code: 'role.lastUpdated.label', default: 'Last Updated')}" />
+					
 					</tr>
 				</thead>
 				<tbody>
@@ -33,6 +37,10 @@
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
 						<td><g:link action="show" id="${roleInstance.id}">${fieldValue(bean: roleInstance, field: "name")}</g:link></td>
+					
+						<td><g:formatDate date="${roleInstance.dateCreated}" /></td>
+					
+						<td><g:formatDate date="${roleInstance.lastUpdated}" /></td>
 					
 					</tr>
 				</g:each>
