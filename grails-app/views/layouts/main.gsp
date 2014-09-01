@@ -50,10 +50,19 @@
           </div><!--/.nav-collapse -->
         </div>
       </div>
-		
-			<g:layoutBody/>
 
 		</div>
+    <div class="container">
+      <div class="starter-template">
+        <g:layoutBody/>
+        <div class="col-sm-12">
+          <footer>
+            &copy;
+            <shiro:copyright startYear="2013">Cloud Computing Company.</shiro:copyright>  
+          </footer>
+        </div>
+      </div>
+    </div>
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
 	</body>
 </html>

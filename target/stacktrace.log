@@ -8189,3 +8189,184 @@ response.text=='Register'
 org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@53e7e53d
 
 	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 12:01:01,014 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1e4b7822
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 12:01:01,058 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1e4b7822
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 12:01:01,060 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1e4b7822
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 12:01:01,060 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1e4b7822
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 12:01:01,072 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1e4b7822
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 12:01:01,072 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1e4b7822
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+2014-09-01 17:23:42,932 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NumberFormatException: For input string: "1B"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:492)
+	at java.lang.Integer.<init>(Integer.java:677)
+	at org.fusesource.jansi.AnsiOutputStream.write(AnsiOutputStream.java:120)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.PrintStream.write(PrintStream.java:480)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:104)
+	at java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:185)
+	at java.io.PrintStream.write(PrintStream.java:527)
+	at java.io.PrintStream.print(PrintStream.java:669)
+	at grails.build.logging.GrailsConsole.showPrompt(GrailsConsole.java:782)
+	at grails.build.logging.GrailsConsole.showPrompt(GrailsConsole.java:805)
+	at grails.build.logging.GrailsConsole.postPrintMessage(GrailsConsole.java:540)
+	at grails.build.logging.GrailsConsole.error(GrailsConsole.java:918)
+	at grails.build.logging.GrailsConsole.error(GrailsConsole.java:560)
+	at org.codehaus.groovy.grails.plugins.log4j.appenders.GrailsConsoleAppender.append(GrailsConsoleAppender.java:59)
+	at org.apache.log4j.AppenderSkeleton.doAppend(AppenderSkeleton.java:251)
+	at org.apache.log4j.helpers.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:66)
+	at org.apache.log4j.Category.callAppenders(Category.java:206)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.log(Category.java:856)
+	at org.slf4j.impl.GrailsLog4jLoggerAdapter.logMessage(GrailsLog4jLoggerAdapter.java:192)
+	at org.slf4j.impl.GrailsLog4jLoggerAdapter.error(GrailsLog4jLoggerAdapter.java:167)
+	at org.apache.commons.logging.impl.SLF4JLog.error(SLF4JLog.java:213)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:412)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfFileChange(AbstractGrailsPluginManager.java:366)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.informPluginManager(GrailsProjectWatcher.java:226)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.access$400(GrailsProjectWatcher.java:48)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$1.onNew(GrailsProjectWatcher.java:152)
+	at org.codehaus.groovy.grails.compiler.AbstractDirectoryWatcher.fireOnNew(AbstractDirectoryWatcher.java:76)
+	at org.codehaus.groovy.grails.compiler.WatchServiceDirectoryWatcher.run(WatchServiceDirectoryWatcher.java:95)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:154)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:161)
+2014-09-01 17:23:42,942 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NumberFormatException: For input string: "1B"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:492)
+	at java.lang.Integer.<init>(Integer.java:677)
+	at org.fusesource.jansi.AnsiOutputStream.write(AnsiOutputStream.java:120)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.PrintStream.write(PrintStream.java:480)
+	at java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:185)
+	at java.io.PrintStream.write(PrintStream.java:527)
+	at java.io.PrintStream.print(PrintStream.java:669)
+	at grails.build.logging.GrailsConsole.showPrompt(GrailsConsole.java:782)
+	at grails.build.logging.GrailsConsole.showPrompt(GrailsConsole.java:805)
+	at grails.build.logging.GrailsConsole.postPrintMessage(GrailsConsole.java:540)
+	at grails.build.logging.GrailsConsole.error(GrailsConsole.java:918)
+	at grails.build.logging.GrailsConsole.error(GrailsConsole.java:560)
+	at org.apache.log4j.AppenderSkeleton.doAppend(AppenderSkeleton.java:251)
+	at org.apache.log4j.helpers.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:66)
+	at org.apache.log4j.Category.callAppenders(Category.java:206)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.log(Category.java:856)
+	at org.slf4j.impl.GrailsLog4jLoggerAdapter.logMessage(GrailsLog4jLoggerAdapter.java:192)
+	at org.slf4j.impl.GrailsLog4jLoggerAdapter.error(GrailsLog4jLoggerAdapter.java:167)
+	at org.apache.commons.logging.impl.SLF4JLog.error(SLF4JLog.java:213)
+2014-09-01 17:23:42,943 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NumberFormatException: For input string: "1B"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:492)
+	at java.lang.Integer.<init>(Integer.java:677)
+	at org.fusesource.jansi.AnsiOutputStream.write(AnsiOutputStream.java:120)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.PrintStream.write(PrintStream.java:480)
+	at java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:185)
+	at java.io.PrintStream.write(PrintStream.java:527)
+	at java.io.PrintStream.print(PrintStream.java:669)
+	at grails.build.logging.GrailsConsole.showPrompt(GrailsConsole.java:782)
+	at grails.build.logging.GrailsConsole.showPrompt(GrailsConsole.java:805)
+	at grails.build.logging.GrailsConsole.postPrintMessage(GrailsConsole.java:540)
+	at grails.build.logging.GrailsConsole.error(GrailsConsole.java:918)
+	at grails.build.logging.GrailsConsole.error(GrailsConsole.java:560)
+	at org.apache.log4j.AppenderSkeleton.doAppend(AppenderSkeleton.java:251)
+	at org.apache.log4j.helpers.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:66)
+	at org.apache.log4j.Category.callAppenders(Category.java:206)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.log(Category.java:856)
+	at org.slf4j.impl.GrailsLog4jLoggerAdapter.logMessage(GrailsLog4jLoggerAdapter.java:192)
+	at org.slf4j.impl.GrailsLog4jLoggerAdapter.error(GrailsLog4jLoggerAdapter.java:167)
+	at org.apache.commons.logging.impl.SLF4JLog.error(SLF4JLog.java:213)
+2014-09-01 17:23:42,943 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NumberFormatException: For input string: "1B"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:492)
+	at java.lang.Integer.<init>(Integer.java:677)
+	at org.fusesource.jansi.AnsiOutputStream.write(AnsiOutputStream.java:120)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.PrintStream.write(PrintStream.java:480)
+	at java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:185)
+	at java.io.PrintStream.write(PrintStream.java:527)
+	at java.io.PrintStream.print(PrintStream.java:669)
+	at grails.build.logging.GrailsConsole.showPrompt(GrailsConsole.java:782)
+	at grails.build.logging.GrailsConsole.showPrompt(GrailsConsole.java:805)
+	at grails.build.logging.GrailsConsole.postPrintMessage(GrailsConsole.java:540)
+	at grails.build.logging.GrailsConsole.error(GrailsConsole.java:918)
+	at grails.build.logging.GrailsConsole.error(GrailsConsole.java:560)
+	at org.apache.log4j.AppenderSkeleton.doAppend(AppenderSkeleton.java:251)
+	at org.apache.log4j.helpers.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:66)
+	at org.apache.log4j.Category.callAppenders(Category.java:206)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.log(Category.java:856)
+	at org.slf4j.impl.GrailsLog4jLoggerAdapter.logMessage(GrailsLog4jLoggerAdapter.java:192)
+	at org.slf4j.impl.GrailsLog4jLoggerAdapter.error(GrailsLog4jLoggerAdapter.java:167)
+	at org.apache.commons.logging.impl.SLF4JLog.error(SLF4JLog.java:213)
