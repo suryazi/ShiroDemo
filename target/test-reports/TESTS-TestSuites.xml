@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="Dell" id="0" name="PermissionControllerSpec" package="com.example" tests="7" time="10.309" timestamp="2014-09-01T09:00:47">
+  <testsuite errors="0" failures="0" hostname="Dell" id="0" name="PermissionControllerSpec" package="com.example" tests="7" time="10.395" timestamp="2014-09-01T16:58:30">
       <properties />
 
-      <testcase classname="com.example.PermissionControllerSpec" name="Test the index action returns the correct model" time="8.607" />
+      <testcase classname="com.example.PermissionControllerSpec" name="Test the index action returns the correct model" time="8.587" />
 
-      <testcase classname="com.example.PermissionControllerSpec" name="Test the create action returns the correct model" time="0.232" />
+      <testcase classname="com.example.PermissionControllerSpec" name="Test the create action returns the correct model" time="0.181" />
 
-      <testcase classname="com.example.PermissionControllerSpec" name="Test the save action correctly persists an instance" time="0.964" />
+      <testcase classname="com.example.PermissionControllerSpec" name="Test the save action correctly persists an instance" time="1.076" />
 
-      <testcase classname="com.example.PermissionControllerSpec" name="Test that the show action returns the correct model" time="0.048" />
+      <testcase classname="com.example.PermissionControllerSpec" name="Test that the show action returns the correct model" time="0.045" />
 
-      <testcase classname="com.example.PermissionControllerSpec" name="Test that the edit action returns the correct model" time="0.046" />
+      <testcase classname="com.example.PermissionControllerSpec" name="Test that the edit action returns the correct model" time="0.047" />
 
-      <testcase classname="com.example.PermissionControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.172" />
+      <testcase classname="com.example.PermissionControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.275" />
 
-      <testcase classname="com.example.PermissionControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.16" />
+      <testcase classname="com.example.PermissionControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.105" />
 
       <system-out><![CDATA[--Output from Test the index action returns the correct model--
 --Output from Test the create action returns the correct model--
@@ -36,28 +36,28 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Dell" id="1" name="PermissionSpec" package="com.example" tests="10" time="1.219" timestamp="2014-09-01T09:00:58">
+  <testsuite errors="0" failures="0" hostname="Dell" id="1" name="PermissionSpec" package="com.example" tests="10" time="1.148" timestamp="2014-09-01T16:58:40">
       <properties />
 
-      <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is nullable" time="0.458" />
+      <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is nullable" time="0.429" />
 
-      <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is nullable" time="0.107" />
+      <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is nullable" time="0.106" />
 
       <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is unique" time="0.086" />
 
-      <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is valid" time="0.072" />
+      <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is valid" time="0.073" />
 
-      <testcase classname="com.example.PermissionSpec" name="Permission acl using  results in false" time="0.075" />
+      <testcase classname="com.example.PermissionSpec" name="Permission acl using  results in false" time="0.069" />
 
-      <testcase classname="com.example.PermissionSpec" name="Permission acl using aaaaaaaaaaaaaaa results in true" time="0.064" />
+      <testcase classname="com.example.PermissionSpec" name="Permission acl using aaaaaaaaaaaaaaa results in true" time="0.054" />
 
-      <testcase classname="com.example.PermissionSpec" name="Permission user testing valid" time="0.07" />
+      <testcase classname="com.example.PermissionSpec" name="Permission user testing valid" time="0.069" />
 
-      <testcase classname="com.example.PermissionSpec" name="Permission user testing valid" time="0.08" />
+      <testcase classname="com.example.PermissionSpec" name="Permission user testing valid" time="0.065" />
+
+      <testcase classname="com.example.PermissionSpec" name="Permission role testing valid" time="0.069" />
 
       <testcase classname="com.example.PermissionSpec" name="Permission role testing valid" time="0.067" />
-
-      <testcase classname="com.example.PermissionSpec" name="Permission role testing valid" time="0.073" />
 
       <system-out><![CDATA[--Output from test Permission all constraints acl is nullable--
 --Output from test Permission all constraints acl is nullable--
@@ -84,22 +84,22 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Dell" id="2" name="RoleControllerSpec" package="com.example" tests="7" time="0.799" timestamp="2014-09-01T09:00:59">
+  <testsuite errors="0" failures="0" hostname="Dell" id="2" name="RoleControllerSpec" package="com.example" tests="7" time="0.782" timestamp="2014-09-01T16:58:42">
       <properties />
 
-      <testcase classname="com.example.RoleControllerSpec" name="Test the index action returns the correct model" time="0.326" />
+      <testcase classname="com.example.RoleControllerSpec" name="Test the index action returns the correct model" time="0.324" />
 
       <testcase classname="com.example.RoleControllerSpec" name="Test the create action returns the correct model" time="0.039" />
 
-      <testcase classname="com.example.RoleControllerSpec" name="Test the save action correctly persists an instance" time="0.104" />
+      <testcase classname="com.example.RoleControllerSpec" name="Test the save action correctly persists an instance" time="0.112" />
 
       <testcase classname="com.example.RoleControllerSpec" name="Test that the show action returns the correct model" time="0.033" />
 
       <testcase classname="com.example.RoleControllerSpec" name="Test that the edit action returns the correct model" time="0.034" />
 
-      <testcase classname="com.example.RoleControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.111" />
+      <testcase classname="com.example.RoleControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.112" />
 
-      <testcase classname="com.example.RoleControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.124" />
+      <testcase classname="com.example.RoleControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.097" />
 
       <system-out><![CDATA[--Output from Test the index action returns the correct model--
 --Output from Test the create action returns the correct model--
@@ -120,28 +120,28 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Dell" id="3" name="RoleSpec" package="com.example" tests="10" time="0.674" timestamp="2014-09-01T09:01:00">
+  <testsuite errors="0" failures="0" hostname="Dell" id="3" name="RoleSpec" package="com.example" tests="10" time="0.733" timestamp="2014-09-01T16:58:42">
       <properties />
 
-      <testcase classname="com.example.RoleSpec" name="test Role all constraints name is nullable" time="0.139" />
+      <testcase classname="com.example.RoleSpec" name="test Role all constraints name is nullable" time="0.144" />
 
-      <testcase classname="com.example.RoleSpec" name="test Role all constraints name is nullable" time="0.056" />
+      <testcase classname="com.example.RoleSpec" name="test Role all constraints name is nullable" time="0.055" />
 
-      <testcase classname="com.example.RoleSpec" name="test Role all constraints name is unique" time="0.058" />
+      <testcase classname="com.example.RoleSpec" name="test Role all constraints name is unique" time="0.057" />
 
-      <testcase classname="com.example.RoleSpec" name="test Role all constraints name is valid" time="0.054" />
+      <testcase classname="com.example.RoleSpec" name="test Role all constraints name is valid" time="0.055" />
 
-      <testcase classname="com.example.RoleSpec" name="Role name using  results in false" time="0.057" />
+      <testcase classname="com.example.RoleSpec" name="Role name using  results in false" time="0.052" />
 
-      <testcase classname="com.example.RoleSpec" name="Role name using aaaaaaaaaaaaaaa results in true" time="0.057" />
+      <testcase classname="com.example.RoleSpec" name="Role name using aaaaaaaaaaaaaaa results in true" time="0.061" />
 
-      <testcase classname="com.example.RoleSpec" name="Role user testing valid" time="0.051" />
+      <testcase classname="com.example.RoleSpec" name="Role user testing valid" time="0.055" />
 
-      <testcase classname="com.example.RoleSpec" name="Role user testing valid" time="0.051" />
+      <testcase classname="com.example.RoleSpec" name="Role user testing valid" time="0.105" />
 
-      <testcase classname="com.example.RoleSpec" name="Role permission testing valid" time="0.052" />
+      <testcase classname="com.example.RoleSpec" name="Role permission testing valid" time="0.05" />
 
-      <testcase classname="com.example.RoleSpec" name="Role permission testing valid" time="0.053" />
+      <testcase classname="com.example.RoleSpec" name="Role permission testing valid" time="0.054" />
 
       <system-out><![CDATA[--Output from test Role all constraints name is nullable--
 --Output from test Role all constraints name is nullable--
@@ -168,11 +168,27 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="1" hostname="Dell" id="4" name="SignupControllerSpec" package="com.example" tests="1" time="0.344" timestamp="2014-09-01T09:01:00">
+  <testsuite errors="0" failures="0" hostname="Dell" id="4" name="ShiroTagLibSpec" package="com.example" tests="2" time="0.931" timestamp="2014-09-01T16:58:43">
       <properties />
 
-      <testcase classname="com.example.SignupControllerSpec" name="Test the index action" time="0.326">
-          <failure message="Condition not satisfied:&#xa;&#xa;response.text==&apos;Register&apos;&#xa;|        |   |&#xa;|        &quot;&quot;  false&#xa;|            8 differences (0% similarity)&#xa;|            (--------)&#xa;|            (Register)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1e4b7822&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+      <testcase classname="com.example.ShiroTagLibSpec" name="test ShiroTagLib" time="0.898" />
+
+      <testcase classname="com.example.ShiroTagLibSpec" name="test tag calls" time="0.021" />
+
+      <system-out><![CDATA[--Output from test ShiroTagLib--
+--Output from test tag calls--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test ShiroTagLib--
+--Output from test tag calls--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Dell" id="5" name="SignupControllerSpec" package="com.example" tests="1" time="0.294" timestamp="2014-09-01T16:58:44">
+      <properties />
+
+      <testcase classname="com.example.SignupControllerSpec" name="Test the index action" time="0.28">
+          <failure message="Condition not satisfied:&#xa;&#xa;response.text==&apos;Register&apos;&#xa;|        |   |&#xa;|        &quot;&quot;  false&#xa;|            8 differences (0% similarity)&#xa;|            (--------)&#xa;|            (Register)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2d4a508a&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
 
 response.text==&apos;Register&apos;
 |        |   |
@@ -180,7 +196,7 @@ response.text==&apos;Register&apos;
 |            8 differences (0% similarity)
 |            (--------)
 |            (Register)
-org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1e4b7822
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2d4a508a
 
 	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
 </failure>
@@ -194,22 +210,22 @@ org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1e4b782
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Dell" id="5" name="UserControllerSpec" package="com.example" tests="7" time="0.776" timestamp="2014-09-01T09:01:01">
+  <testsuite errors="0" failures="0" hostname="Dell" id="6" name="UserControllerSpec" package="com.example" tests="7" time="0.751" timestamp="2014-09-01T16:58:44">
       <properties />
 
       <testcase classname="com.example.UserControllerSpec" name="Test the index action returns the correct model" time="0.25" />
 
-      <testcase classname="com.example.UserControllerSpec" name="Test the create action returns the correct model" time="0.038" />
+      <testcase classname="com.example.UserControllerSpec" name="Test the create action returns the correct model" time="0.037" />
 
-      <testcase classname="com.example.UserControllerSpec" name="Test the save action correctly persists an instance" time="0.113" />
+      <testcase classname="com.example.UserControllerSpec" name="Test the save action correctly persists an instance" time="0.207" />
 
-      <testcase classname="com.example.UserControllerSpec" name="Test that the show action returns the correct model" time="0.034" />
+      <testcase classname="com.example.UserControllerSpec" name="Test that the show action returns the correct model" time="0.033" />
 
-      <testcase classname="com.example.UserControllerSpec" name="Test that the edit action returns the correct model" time="0.036" />
+      <testcase classname="com.example.UserControllerSpec" name="Test that the edit action returns the correct model" time="0.035" />
 
-      <testcase classname="com.example.UserControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.147" />
+      <testcase classname="com.example.UserControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.101" />
 
-      <testcase classname="com.example.UserControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.094" />
+      <testcase classname="com.example.UserControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.067" />
 
       <system-out><![CDATA[--Output from Test the index action returns the correct model--
 --Output from Test the create action returns the correct model--
@@ -230,38 +246,38 @@ org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1e4b782
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Dell" id="6" name="UserSpec" package="com.example" tests="15" time="0.789" timestamp="2014-09-01T09:01:01">
+  <testsuite errors="0" failures="0" hostname="Dell" id="7" name="UserSpec" package="com.example" tests="15" time="0.743" timestamp="2014-09-01T16:58:45">
       <properties />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.128" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.103" />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.044" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints username is nullable" time="0.046" />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints username is email" time="0.054" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints username is email" time="0.043" />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints username is unique" time="0.047" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints username is unique" time="0.041" />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints username is valid" time="0.044" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints username is valid" time="0.041" />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.043" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.038" />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.042" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints passwordHash is nullable" time="0.039" />
 
       <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.044" />
 
-      <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.043" />
+      <testcase classname="com.example.UserSpec" name="test User all constraints passwordSalt is nullable" time="0.041" />
 
-      <testcase classname="com.example.UserSpec" name="User username using dexterm@m results in false" time="0.045" />
+      <testcase classname="com.example.UserSpec" name="User username using dexterm@m results in false" time="0.048" />
 
-      <testcase classname="com.example.UserSpec" name="User username using dexterm@miamipd.gov results in true" time="0.043" />
-
-      <testcase classname="com.example.UserSpec" name="User role testing valid" time="0.041" />
+      <testcase classname="com.example.UserSpec" name="User username using dexterm@miamipd.gov results in true" time="0.045" />
 
       <testcase classname="com.example.UserSpec" name="User role testing valid" time="0.044" />
 
+      <testcase classname="com.example.UserSpec" name="User role testing valid" time="0.042" />
+
       <testcase classname="com.example.UserSpec" name="User permission testing valid" time="0.043" />
 
-      <testcase classname="com.example.UserSpec" name="User permission testing valid" time="0.042" />
+      <testcase classname="com.example.UserSpec" name="User permission testing valid" time="0.041" />
 
       <system-out><![CDATA[--Output from test User all constraints username is nullable--
 --Output from test User all constraints username is nullable--

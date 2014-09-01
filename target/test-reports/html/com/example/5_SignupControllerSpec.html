@@ -2,7 +2,7 @@
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>
-                    Test - PermissionSpec</title>
+                    Test - SignupControllerSpec</title>
 <link type="image/x-icon" href="http://grails.org/images/favicon.ico" rel="shortcut icon">
 <link title="Style" type="text/css" rel="stylesheet" href="../../stylesheet.css">
 </head>
@@ -12,7 +12,7 @@
 <a title="Home" href="../../index.html">
 <div class="grailslogo"></div>
 </a>
-<h1>PermissionSpec</h1>
+<h1>SignupControllerSpec</h1>
 <h2>Package: com.example</h2>
 </div>
 <div class="grid_2">
@@ -35,144 +35,63 @@
 </nav>
 </div>
 <div class="clear"></div>
-<div class="testsuite success">
+<div class="testsuite failure">
 <div class="header">
-<h2>PermissionSpec</h2>
+<h2>SignupControllerSpec</h2>
 <h3>
-                        Executed
-                        10
-                        tests
+                        A single test executed
                     
-                        without a single error or failure!
+                        with
+                        one failure
+                        .
                     </h3>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="test Permission all constraints acl is nullable">
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="Test the index action">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">test Permission all constraints acl is nullable</b>
+<span class="icon failure"></span><b class="testname message failure">Test the index action</b>
 </p>
-<p class="summary">Executed in 0.429 seconds.</p>
+<p class="summary">Executed in 0.28 seconds.</p>
 </div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="test Permission all constraints acl is nullable">
-<div class="grid_3 alpha">
+<div class="grid_5 omega outputinfo">
+<div class="details">
 <p>
-<span class="icon success"></span><b class="testname message success">test Permission all constraints acl is nullable</b>
+<b class="message">Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2d4a508a
+</b>
 </p>
-<p class="summary">Executed in 0.106 seconds.</p>
+<pre>junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.text=='Register'
+|        |   |
+|        ""  false
+|            8 differences (0% similarity)
+|            (--------)
+|            (Register)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2d4a508a
+
+	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
+</pre>
 </div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="test Permission all constraints acl is unique">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">test Permission all constraints acl is unique</b>
-</p>
-<p class="summary">Executed in 0.086 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="test Permission all constraints acl is valid">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">test Permission all constraints acl is valid</b>
-</p>
-<p class="summary">Executed in 0.073 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Permission acl using  results in false">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">Permission acl using  results in false</b>
-</p>
-<p class="summary">Executed in 0.069 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Permission acl using aaaaaaaaaaaaaaa results in true">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">Permission acl using aaaaaaaaaaaaaaa results in true</b>
-</p>
-<p class="summary">Executed in 0.054 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Permission user testing valid">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">Permission user testing valid</b>
-</p>
-<p class="summary">Executed in 0.069 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Permission user testing valid">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">Permission user testing valid</b>
-</p>
-<p class="summary">Executed in 0.065 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Permission role testing valid">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">Permission role testing valid</b>
-</p>
-<p class="summary">Executed in 0.069 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Permission role testing valid">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">Permission role testing valid</b>
-</p>
-<p class="summary">Executed in 0.067 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from test Permission all constraints acl is nullable--
---Output from test Permission all constraints acl is nullable--
---Output from test Permission all constraints acl is unique--
---Output from test Permission all constraints acl is valid--
---Output from Permission acl using  results in false--
---Output from Permission acl using aaaaaaaaaaaaaaa results in true--
---Output from Permission user testing valid--
---Output from Permission user testing valid--
---Output from Permission role testing valid--
---Output from Permission role testing valid--
+<pre class="stdout">--Output from Test the index action--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from test Permission all constraints acl is nullable--
---Output from test Permission all constraints acl is nullable--
---Output from test Permission all constraints acl is unique--
---Output from test Permission all constraints acl is valid--
---Output from Permission acl using  results in false--
---Output from Permission acl using aaaaaaaaaaaaaaa results in true--
---Output from Permission user testing valid--
---Output from Permission user testing valid--
---Output from Permission role testing valid--
---Output from Permission role testing valid--
+<pre class="syserr">--Output from Test the index action--
 </pre>
 </div>
 </div>

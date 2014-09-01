@@ -1,0 +1,2 @@
+--Output from test ShiroTagLib--
+--Output from test tag calls--

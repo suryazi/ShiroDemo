@@ -1,5 +1,5 @@
 Testsuite: com.example.UserControllerSpec
-Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 0.776 sec
+Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 0.751 sec
 ------------- Standard Output ---------------
 --Output from Test the index action returns the correct model--
 --Output from Test the create action returns the correct model--
@@ -20,9 +20,9 @@ Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 0.776 sec
 ------------- ---------------- ---------------
 
 Testcase: Test the index action returns the correct model took 0.25 sec
-Testcase: Test the create action returns the correct model took 0.039 sec
-Testcase: Test the save action correctly persists an instance took 0.113 sec
-Testcase: Test that the show action returns the correct model took 0.034 sec
-Testcase: Test that the edit action returns the correct model took 0.036 sec
-Testcase: Test the update action performs an update on a valid domain instance took 0.147 sec
-Testcase: Test that the delete action deletes an instance if it exists took 0.094 sec
+Testcase: Test the create action returns the correct model took 0.037 sec
+Testcase: Test the save action correctly persists an instance took 0.207 sec
+Testcase: Test that the show action returns the correct model took 0.033 sec
+Testcase: Test that the edit action returns the correct model took 0.035 sec
+Testcase: Test the update action performs an update on a valid domain instance took 0.101 sec
+Testcase: Test that the delete action deletes an instance if it exists took 0.067 sec

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Dell" name="com.example.ShiroTagLibSpec" tests="2" time="0.931" timestamp="2014-09-01T16:58:43">
+  <properties />
+  <testcase classname="com.example.ShiroTagLibSpec" name="test ShiroTagLib" time="0.898" />
+  <testcase classname="com.example.ShiroTagLibSpec" name="test tag calls" time="0.021" />
+  <system-out><![CDATA[--Output from test ShiroTagLib--
+--Output from test tag calls--
+]]></system-out>
+  <system-err><![CDATA[--Output from test ShiroTagLib--
+--Output from test tag calls--
+]]></system-err>
+</testsuite>

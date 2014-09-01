@@ -9,12 +9,14 @@ import spock.lang.Specification
 @TestFor(ShiroTagLib)
 class ShiroTagLibSpec extends Specification {
 
-    def setup() {
+    void "test ShiroTagLib"(){
+    	expect:
+    	applyTemplate('<shiro:thisYear/>')==String.valueOf(Calendar.getInstance().get(Calendar.YEAR))
+    	applyTemplate('<shiro:copyright startYear="2013">Test.</shiro:copyright>')=='2013 - '+String.valueOf(Calendar.getInstance().get(Calendar.YEAR))+', Test. All Rights Reserved.'
     }
 
-    def cleanup() {
-    }
-
-    void "test something"() {
+    void "test tag calls"(){
+    	expect:
+    	tagLib.thisYear().toString()==String.valueOf(Calendar.getInstance().get(Calendar.YEAR))
     }
 }

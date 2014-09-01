@@ -9,7 +9,7 @@ class ShiroTagLib {
     }
 
     def copyright={ attrs, body ->
-    	out<<"${attrs['startYear']} - ${thisYear()}, ${body()}"
+    	out<<"${attrs.startYear} - ${thisYear()}, ${body()}"
     	out<<" All Rights Reserved."
     }
 }
