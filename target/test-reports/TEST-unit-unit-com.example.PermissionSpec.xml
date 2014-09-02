@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Dell" name="com.example.PermissionSpec" tests="10" time="1.288" timestamp="2014-09-02T06:25:18">
+<testsuite errors="0" failures="0" hostname="Dell" name="com.example.PermissionSpec" tests="10" time="1.286" timestamp="2014-09-02T07:00:47">
   <properties />
-  <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is nullable" time="0.45" />
-  <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is nullable" time="0.099" />
-  <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is unique" time="0.093" />
-  <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is valid" time="0.088" />
-  <testcase classname="com.example.PermissionSpec" name="Permission acl using  results in false" time="0.065" />
-  <testcase classname="com.example.PermissionSpec" name="Permission acl using aaaaaaaaaaaaaaa results in true" time="0.097" />
-  <testcase classname="com.example.PermissionSpec" name="Permission user testing valid" time="0.074" />
-  <testcase classname="com.example.PermissionSpec" name="Permission user testing valid" time="0.075" />
-  <testcase classname="com.example.PermissionSpec" name="Permission role testing valid" time="0.086" />
-  <testcase classname="com.example.PermissionSpec" name="Permission role testing valid" time="0.078" />
+  <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is nullable" time="0.527" />
+  <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is nullable" time="0.106" />
+  <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is unique" time="0.099" />
+  <testcase classname="com.example.PermissionSpec" name="test Permission all constraints acl is valid" time="0.077" />
+  <testcase classname="com.example.PermissionSpec" name="Permission acl using  results in false" time="0.072" />
+  <testcase classname="com.example.PermissionSpec" name="Permission acl using aaaaaaaaaaaaaaa results in true" time="0.065" />
+  <testcase classname="com.example.PermissionSpec" name="Permission user testing valid" time="0.073" />
+  <testcase classname="com.example.PermissionSpec" name="Permission user testing valid" time="0.067" />
+  <testcase classname="com.example.PermissionSpec" name="Permission role testing valid" time="0.072" />
+  <testcase classname="com.example.PermissionSpec" name="Permission role testing valid" time="0.066" />
   <system-out><![CDATA[--Output from test Permission all constraints acl is nullable--
 --Output from test Permission all constraints acl is nullable--
 --Output from test Permission all constraints acl is unique--

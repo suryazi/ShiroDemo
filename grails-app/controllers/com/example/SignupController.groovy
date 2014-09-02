@@ -8,9 +8,11 @@ import org.apache.shiro.crypto.SecureRandomNumberGenerator
 class SignupController {
 
     def index() {
-        User user = new User()
-        user: user
-
+        /*User user = new User()
+        user: user*/
+        def user=new User()
+        bindData(user,params)
+        respond user
     }
 
     def register(RegistrationCommand rc) {

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Dell" name="com.example.PermissionControllerSpec" tests="7" time="11.904" timestamp="2014-09-02T06:25:06">
+<testsuite errors="0" failures="0" hostname="Dell" name="com.example.PermissionControllerSpec" tests="7" time="10.043" timestamp="2014-09-02T07:00:37">
   <properties />
-  <testcase classname="com.example.PermissionControllerSpec" name="Test the index action returns the correct model" time="10.085" />
-  <testcase classname="com.example.PermissionControllerSpec" name="Test the create action returns the correct model" time="0.267" />
-  <testcase classname="com.example.PermissionControllerSpec" name="Test the save action correctly persists an instance" time="1.066" />
-  <testcase classname="com.example.PermissionControllerSpec" name="Test that the show action returns the correct model" time="0.054" />
-  <testcase classname="com.example.PermissionControllerSpec" name="Test that the edit action returns the correct model" time="0.051" />
-  <testcase classname="com.example.PermissionControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.191" />
-  <testcase classname="com.example.PermissionControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.107" />
+  <testcase classname="com.example.PermissionControllerSpec" name="Test the index action returns the correct model" time="8.311" />
+  <testcase classname="com.example.PermissionControllerSpec" name="Test the create action returns the correct model" time="0.192" />
+  <testcase classname="com.example.PermissionControllerSpec" name="Test the save action correctly persists an instance" time="1.092" />
+  <testcase classname="com.example.PermissionControllerSpec" name="Test that the show action returns the correct model" time="0.052" />
+  <testcase classname="com.example.PermissionControllerSpec" name="Test that the edit action returns the correct model" time="0.05" />
+  <testcase classname="com.example.PermissionControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.162" />
+  <testcase classname="com.example.PermissionControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.105" />
   <system-out><![CDATA[--Output from Test the index action returns the correct model--
 --Output from Test the create action returns the correct model--
 --Output from Test the save action correctly persists an instance--

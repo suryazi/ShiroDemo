@@ -1,1 +1,1 @@
---Output from Test the index action--
+--Output from Test the index action returns the correct model--

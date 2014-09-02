@@ -1,5 +1,5 @@
 Testsuite: com.example.RoleSpec
-Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 0.906 sec
+Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 0.711 sec
 ------------- Standard Output ---------------
 --Output from test Role all constraints name is nullable--
 --Output from test Role all constraints name is nullable--
@@ -25,13 +25,13 @@ Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 0.906 sec
 --Output from Role permission testing valid--
 ------------- ---------------- ---------------
 
-Testcase: test Role all constraints name is nullable took 0.206 sec
-Testcase: test Role all constraints name is nullable took 0.074 sec
-Testcase: test Role all constraints name is unique took 0.077 sec
-Testcase: test Role all constraints name is valid took 0.091 sec
-Testcase: Role name using  results in false took 0.085 sec
-Testcase: Role name using aaaaaaaaaaaaaaa results in true took 0.057 sec
-Testcase: Role user testing valid took 0.08 sec
-Testcase: Role user testing valid took 0.1 sec
-Testcase: Role permission testing valid took 0.042 sec
-Testcase: Role permission testing valid took 0.048 sec
+Testcase: test Role all constraints name is nullable took 0.143 sec
+Testcase: test Role all constraints name is nullable took 0.055 sec
+Testcase: test Role all constraints name is unique took 0.067 sec
+Testcase: test Role all constraints name is valid took 0.056 sec
+Testcase: Role name using  results in false took 0.06 sec
+Testcase: Role name using aaaaaaaaaaaaaaa results in true took 0.072 sec
+Testcase: Role user testing valid took 0.053 sec
+Testcase: Role user testing valid took 0.055 sec
+Testcase: Role permission testing valid took 0.054 sec
+Testcase: Role permission testing valid took 0.051 sec

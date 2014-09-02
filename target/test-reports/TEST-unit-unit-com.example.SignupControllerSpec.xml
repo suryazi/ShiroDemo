@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="Dell" name="com.example.SignupControllerSpec" tests="1" time="0.354" timestamp="2014-09-02T06:25:22">
+<testsuite errors="0" failures="0" hostname="Dell" name="com.example.SignupControllerSpec" tests="1" time="0.263" timestamp="2014-09-02T07:00:51">
   <properties />
-  <testcase classname="com.example.SignupControllerSpec" name="Test the index action" time="0.338">
-    <failure message="Condition not satisfied:&#xa;&#xa;response.text==&apos;Register&apos;&#xa;|        |   |&#xa;|        &quot;&quot;  false&#xa;|            8 differences (0% similarity)&#xa;|            (--------)&#xa;|            (Register)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6dde04f3&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
-
-response.text==&apos;Register&apos;
-|        |   |
-|        &quot;&quot;  false
-|            8 differences (0% similarity)
-|            (--------)
-|            (Register)
-org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6dde04f3
-
-	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
-</failure>
-  </testcase>
-  <system-out><![CDATA[--Output from Test the index action--
+  <testcase classname="com.example.SignupControllerSpec" name="Test the index action returns the correct model" time="0.249" />
+  <system-out><![CDATA[--Output from Test the index action returns the correct model--
 ]]></system-out>
-  <system-err><![CDATA[--Output from Test the index action--
+  <system-err><![CDATA[--Output from Test the index action returns the correct model--
 ]]></system-err>
 </testsuite>
