@@ -20,7 +20,9 @@ class UserController {
     }
 
     def create() {
-        respond new User(params)
+        def user=new User()
+        bindData(user,params)
+        respond user
     }
 
     @Transactional

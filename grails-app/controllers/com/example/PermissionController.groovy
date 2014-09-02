@@ -20,7 +20,9 @@ class PermissionController {
     }
 
     def create() {
-        respond new Permission(params)
+        def permission=new Permission()
+        bindData(permission,params)
+        respond permission
     }
 
     @Transactional

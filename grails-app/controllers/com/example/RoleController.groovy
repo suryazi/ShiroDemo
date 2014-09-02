@@ -20,7 +20,9 @@ class RoleController {
     }
 
     def create() {
-        respond new Role(params)
+        def role=new Role()
+        bindData(role,params)
+        respond role
     }
 
     @Transactional

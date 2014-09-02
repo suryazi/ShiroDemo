@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="Dell" name="com.example.SignupControllerSpec" tests="1" time="0.294" timestamp="2014-09-01T16:58:44">
+<testsuite errors="0" failures="1" hostname="Dell" name="com.example.SignupControllerSpec" tests="1" time="0.354" timestamp="2014-09-02T06:25:22">
   <properties />
-  <testcase classname="com.example.SignupControllerSpec" name="Test the index action" time="0.28">
-    <failure message="Condition not satisfied:&#xa;&#xa;response.text==&apos;Register&apos;&#xa;|        |   |&#xa;|        &quot;&quot;  false&#xa;|            8 differences (0% similarity)&#xa;|            (--------)&#xa;|            (Register)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2d4a508a&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+  <testcase classname="com.example.SignupControllerSpec" name="Test the index action" time="0.338">
+    <failure message="Condition not satisfied:&#xa;&#xa;response.text==&apos;Register&apos;&#xa;|        |   |&#xa;|        &quot;&quot;  false&#xa;|            8 differences (0% similarity)&#xa;|            (--------)&#xa;|            (Register)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6dde04f3&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
 
 response.text==&apos;Register&apos;
 |        |   |
@@ -10,7 +10,7 @@ response.text==&apos;Register&apos;
 |            8 differences (0% similarity)
 |            (--------)
 |            (Register)
-org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2d4a508a
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6dde04f3
 
 	at com.example.SignupControllerSpec.Test the index action(SignupControllerSpec.groovy:25)
 </failure>
