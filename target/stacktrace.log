@@ -24542,3 +24542,55 @@ model.user!= null
 [userInstance:com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)]
 
 	at com.example.SignupControllerSpec.Test the index action returns the correct model(SignupControllerSpec.groovy:24)
+2014-09-02 17:06:45,324 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.SignupController.save() is applicable for argument types: (com.example.User) values: [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)]
+Possible solutions: wait(), any(), wait(long), raw(java.lang.Object), isCase(java.lang.Object), sleep(long)
+	at org.codehaus.groovy.grails.plugins.web.api.ControllerTagLibraryApi.methodMissing(ControllerTagLibraryApi.java:97)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at com.example.SignupControllerSpec.Test the register action correctly persists an instance(SignupControllerSpec.groovy:34)
+2014-09-02 17:06:45,600 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.SignupController.save() is applicable for argument types: (com.example.User) values: [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)]
+Possible solutions: wait(), any(), wait(long), raw(java.lang.Object), isCase(java.lang.Object), sleep(long)
+	at com.example.SignupControllerSpec.Test the register action correctly persists an instance(SignupControllerSpec.groovy:34)
+2014-09-02 17:06:45,606 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.SignupController.save() is applicable for argument types: (com.example.User) values: [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)]
+Possible solutions: wait(), any(), wait(long), raw(java.lang.Object), isCase(java.lang.Object), sleep(long)
+	at com.example.SignupControllerSpec.Test the register action correctly persists an instance(SignupControllerSpec.groovy:34)
+2014-09-02 17:06:45,608 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.SignupController.save() is applicable for argument types: (com.example.User) values: [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)]
+Possible solutions: wait(), any(), wait(long), raw(java.lang.Object), isCase(java.lang.Object), sleep(long)
+	at com.example.SignupControllerSpec.Test the register action correctly persists an instance(SignupControllerSpec.groovy:34)
+2014-09-02 17:06:45,625 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.SignupController.save() is applicable for argument types: (com.example.User) values: [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)]
+Possible solutions: wait(), any(), wait(long), raw(java.lang.Object), isCase(java.lang.Object), sleep(long)
+	at com.example.SignupControllerSpec.Test the register action correctly persists an instance(SignupControllerSpec.groovy:34)
+2014-09-02 17:06:45,627 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.SignupController.save() is applicable for argument types: (com.example.User) values: [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)]
+Possible solutions: wait(), any(), wait(long), raw(java.lang.Object), isCase(java.lang.Object), sleep(long)
+	at com.example.SignupControllerSpec.Test the register action correctly persists an instance(SignupControllerSpec.groovy:34)
+2014-09-02 17:09:14,481 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.SignupController.register() is applicable for argument types: (com.example.User) values: [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)]
+Possible solutions: register(), register(com.example.RegistrationCommand), render(groovy.lang.Closure), render(java.lang.CharSequence), render(java.lang.Object), render(java.lang.String)
+	at org.codehaus.groovy.grails.plugins.web.api.ControllerTagLibraryApi.methodMissing(ControllerTagLibraryApi.java:97)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at com.example.SignupControllerSpec.Test the register action correctly persists an instance(SignupControllerSpec.groovy:34)
+2014-09-02 17:09:14,527 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.SignupController.register() is applicable for argument types: (com.example.User) values: [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)]
+Possible solutions: register(), register(com.example.RegistrationCommand), render(groovy.lang.Closure), render(java.lang.CharSequence), render(java.lang.Object), render(java.lang.String)
+	at com.example.SignupControllerSpec.Test the register action correctly persists an instance(SignupControllerSpec.groovy:34)
+2014-09-02 17:09:14,563 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.SignupController.register() is applicable for argument types: (com.example.User) values: [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)]
+Possible solutions: register(), register(com.example.RegistrationCommand), render(groovy.lang.Closure), render(java.lang.CharSequence), render(java.lang.Object), render(java.lang.String)
+	at com.example.SignupControllerSpec.Test the register action correctly persists an instance(SignupControllerSpec.groovy:34)
+2014-09-02 17:09:14,584 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.SignupController.register() is applicable for argument types: (com.example.User) values: [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)]
+Possible solutions: register(), register(com.example.RegistrationCommand), render(groovy.lang.Closure), render(java.lang.CharSequence), render(java.lang.Object), render(java.lang.String)
+	at com.example.SignupControllerSpec.Test the register action correctly persists an instance(SignupControllerSpec.groovy:34)
+2014-09-02 17:09:14,663 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.SignupController.register() is applicable for argument types: (com.example.User) values: [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)]
+Possible solutions: register(), register(com.example.RegistrationCommand), render(groovy.lang.Closure), render(java.lang.CharSequence), render(java.lang.Object), render(java.lang.String)
+	at com.example.SignupControllerSpec.Test the register action correctly persists an instance(SignupControllerSpec.groovy:34)
+2014-09-02 17:09:14,677 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.example.SignupController.register() is applicable for argument types: (com.example.User) values: [com.example.User(username:null, passwordHash:null, passwordSalt:null, dateCreated:null, lastUpdated:null)]
+Possible solutions: register(), register(com.example.RegistrationCommand), render(groovy.lang.Closure), render(java.lang.CharSequence), render(java.lang.Object), render(java.lang.String)
+	at com.example.SignupControllerSpec.Test the register action correctly persists an instance(SignupControllerSpec.groovy:34)

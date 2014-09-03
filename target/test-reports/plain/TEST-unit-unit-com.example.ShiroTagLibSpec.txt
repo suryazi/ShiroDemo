@@ -1,5 +1,5 @@
 Testsuite: com.example.ShiroTagLibSpec
-Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.974 sec
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.872 sec
 ------------- Standard Output ---------------
 --Output from test ShiroTagLib--
 --Output from test tag calls--
@@ -9,5 +9,5 @@ Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.974 sec
 --Output from test tag calls--
 ------------- ---------------- ---------------
 
-Testcase: test ShiroTagLib took 0.942 sec
-Testcase: test tag calls took 0.021 sec
+Testcase: test ShiroTagLib took 0.83 sec
+Testcase: test tag calls took 0.034 sec

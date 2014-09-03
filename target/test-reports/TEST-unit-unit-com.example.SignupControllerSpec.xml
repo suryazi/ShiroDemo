@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Dell" name="com.example.SignupControllerSpec" tests="1" time="0.263" timestamp="2014-09-02T07:00:51">
+<testsuite errors="0" failures="0" hostname="Dell" name="com.example.SignupControllerSpec" tests="1" time="0.205" timestamp="2014-09-02T14:12:18">
   <properties />
-  <testcase classname="com.example.SignupControllerSpec" name="Test the index action returns the correct model" time="0.249" />
+  <testcase classname="com.example.SignupControllerSpec" name="Test the index action returns the correct model" time="0.193" />
   <system-out><![CDATA[--Output from Test the index action returns the correct model--
 ]]></system-out>
   <system-err><![CDATA[--Output from Test the index action returns the correct model--

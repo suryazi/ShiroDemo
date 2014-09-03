@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Dell" name="com.example.UserControllerSpec" tests="7" time="0.731" timestamp="2014-09-02T07:00:51">
+<testsuite errors="0" failures="0" hostname="Dell" name="com.example.UserControllerSpec" tests="7" time="0.715" timestamp="2014-09-02T14:12:18">
   <properties />
-  <testcase classname="com.example.UserControllerSpec" name="Test the index action returns the correct model" time="0.272" />
-  <testcase classname="com.example.UserControllerSpec" name="Test the create action returns the correct model" time="0.035" />
-  <testcase classname="com.example.UserControllerSpec" name="Test the save action correctly persists an instance" time="0.146" />
-  <testcase classname="com.example.UserControllerSpec" name="Test that the show action returns the correct model" time="0.032" />
-  <testcase classname="com.example.UserControllerSpec" name="Test that the edit action returns the correct model" time="0.036" />
-  <testcase classname="com.example.UserControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.112" />
-  <testcase classname="com.example.UserControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.072" />
+  <testcase classname="com.example.UserControllerSpec" name="Test the index action returns the correct model" time="0.236" />
+  <testcase classname="com.example.UserControllerSpec" name="Test the create action returns the correct model" time="0.033" />
+  <testcase classname="com.example.UserControllerSpec" name="Test the save action correctly persists an instance" time="0.105" />
+  <testcase classname="com.example.UserControllerSpec" name="Test that the show action returns the correct model" time="0.033" />
+  <testcase classname="com.example.UserControllerSpec" name="Test that the edit action returns the correct model" time="0.03" />
+  <testcase classname="com.example.UserControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.184" />
+  <testcase classname="com.example.UserControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.071" />
   <system-out><![CDATA[--Output from Test the index action returns the correct model--
 --Output from Test the create action returns the correct model--
 --Output from Test the save action correctly persists an instance--

@@ -1,5 +1,5 @@
 Testsuite: com.example.SignupControllerSpec
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.263 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.205 sec
 ------------- Standard Output ---------------
 --Output from Test the index action returns the correct model--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.263 sec
 --Output from Test the index action returns the correct model--
 ------------- ---------------- ---------------
 
-Testcase: Test the index action returns the correct model took 0.249 sec
+Testcase: Test the index action returns the correct model took 0.193 sec

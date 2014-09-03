@@ -35,18 +35,18 @@ Tests run: 15, Failures: 0, Errors: 0, Time elapsed: 0.833 sec
 --Output from User permission testing valid--
 ------------- ---------------- ---------------
 
-Testcase: test User all constraints username is nullable took 0.126 sec
+Testcase: test User all constraints username is nullable took 0.138 sec
 Testcase: test User all constraints username is nullable took 0.053 sec
-Testcase: test User all constraints username is email took 0.05 sec
+Testcase: test User all constraints username is email took 0.045 sec
 Testcase: test User all constraints username is unique took 0.047 sec
-Testcase: test User all constraints username is valid took 0.049 sec
-Testcase: test User all constraints passwordHash is nullable took 0.048 sec
+Testcase: test User all constraints username is valid took 0.046 sec
 Testcase: test User all constraints passwordHash is nullable took 0.044 sec
-Testcase: test User all constraints passwordSalt is nullable took 0.046 sec
-Testcase: test User all constraints passwordSalt is nullable took 0.049 sec
-Testcase: User username using dexterm@m results in false took 0.049 sec
-Testcase: User username using dexterm@miamipd.gov results in true took 0.047 sec
-Testcase: User role testing valid took 0.045 sec
-Testcase: User role testing valid took 0.045 sec
-Testcase: User permission testing valid took 0.047 sec
-Testcase: User permission testing valid took 0.045 sec
+Testcase: test User all constraints passwordHash is nullable took 0.043 sec
+Testcase: test User all constraints passwordSalt is nullable took 0.041 sec
+Testcase: test User all constraints passwordSalt is nullable took 0.041 sec
+Testcase: User username using dexterm@m results in false took 0.046 sec
+Testcase: User username using dexterm@miamipd.gov results in true took 0.043 sec
+Testcase: User role testing valid took 0.07 sec
+Testcase: User role testing valid took 0.043 sec
+Testcase: User permission testing valid took 0.042 sec
+Testcase: User permission testing valid took 0.039 sec
