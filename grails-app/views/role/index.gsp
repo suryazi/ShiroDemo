@@ -14,7 +14,6 @@
 		<g:render template="/templates/shirodemo/sidemenu" model="[active: 'list']"/>
 		<div class="col-md-10 row-fluid">
 			<div id="list-role" class="content scaffold-list" role="main">
-				<h1><g:message code="default.list.label" args="[entityName]" /></h1>
 				<g:if test="${flash.message}">
 					<div class="message" role="status">${flash.message}</div>
 				</g:if>

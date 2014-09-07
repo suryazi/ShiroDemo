@@ -1,4 +1,4 @@
-<div class="col-md-2" style="background-color: #dedef8; box-shadow:inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+<div class="col-sm-2" style="background-color: #dedef8; box-shadow:inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
     <ul class="nav nav-pills nav-stacked">
         <li class="nav-header">${entityName}</li>
           <g:if test="${pageScope?.getProperty('active')=='list'}">

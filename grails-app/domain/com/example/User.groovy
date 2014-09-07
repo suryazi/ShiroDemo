@@ -3,7 +3,7 @@ import groovy.transform.EqualsAndHashCode
 import groovy.transform.ToString
 
 @EqualsAndHashCode
-@ToString(includeNames = true, includeFields = true)
+@ToString(includeNames = true, includeFields = true, excludes = 'dateCreated,lastUpdated,metaClass')
 class User {
     String username
     String passwordHash
@@ -17,5 +17,9 @@ class User {
         username(nullable: false, blank: false, unique: true, email:true)
         passwordHash(nullable: false, blank: false)
         passwordSalt(nullable: false, blank: false)
+    }
+
+    String toString(){
+        "${username}"
     }
 }

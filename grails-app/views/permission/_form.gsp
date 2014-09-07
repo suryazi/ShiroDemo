@@ -16,7 +16,7 @@
 		<g:message code="permission.roles.label" default="Roles" />
 		
 	</label>
-	
+	<g:select name="roles" from="${com.example.Role.list()}" multiple="multiple" optionKey="id" size="5" value="${permissionInstance?.roles*.id}" class="many-to-many"/>
 
 </div>
 
@@ -25,7 +25,8 @@
 		<g:message code="permission.users.label" default="Users" />
 		
 	</label>
-	
+	<g:select name="users" from="${com.example.User.list()}" multiple="multiple" optionKey="id" size="5" value="${permissionInstance?.users*.id}" class="many-to-many"/>
+
 
 </div>
 

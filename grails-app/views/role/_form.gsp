@@ -25,7 +25,7 @@
 		<g:message code="role.users.label" default="Users" />
 		
 	</label>
-	
+	<g:select name="users" from="${com.example.User.list()}" multiple="multiple" optionKey="id" size="5" value="${roleInstance?.users*.id}" class="many-to-many"/>
 
 </div>
 

@@ -3,7 +3,7 @@ import groovy.transform.EqualsAndHashCode
 import groovy.transform.ToString
 
 @EqualsAndHashCode
-@ToString(includeNames = true, includeFields = true)
+@ToString(includeNames = true, includeFields = true, excludes = 'dateCreated,lastUpdated,metaClass')
 class Permission {
     String acl
     Date dateCreated
@@ -16,4 +16,8 @@ class Permission {
     static hasMany = [ users: User, roles: Role ]
     
     static belongsTo = [Role, User]
+
+    String toString(){
+    	"${acl}"
+    }
 }

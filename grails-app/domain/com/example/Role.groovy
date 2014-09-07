@@ -3,7 +3,7 @@ import groovy.transform.EqualsAndHashCode
 import groovy.transform.ToString
 
 @EqualsAndHashCode
-@ToString(includeNames = true, includeFields = true)
+@ToString(includeNames = true, includeFields = true, excludes = 'dateCreated,lastUpdated,metaClass')
 class Role {
     String name
     Date dateCreated
@@ -14,5 +14,9 @@ class Role {
 
     static constraints = {
         name(nullable: false, blank: false, unique: true)
+    }
+
+    String toString(){
+    	"${name}"
     }
 }

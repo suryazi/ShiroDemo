@@ -14,7 +14,6 @@
 		<g:render template="/templates/shirodemo/sidemenu" model="[active: 'list']"/>
 		<div class="col-md-10 row-fluid">
 			<div id="list-user" class="content scaffold-list" role="main">
-				<h1><g:message code="default.list.label" args="[entityName]" /></h1>
 				<g:if test="${flash.message}">
 					<div class="message" role="status">${flash.message}</div>
 				</g:if>
@@ -23,10 +22,6 @@
 						<tr>
 						
 							<g:sortableColumn property="username" title="${message(code: 'user.username.label', default: 'Username')}" />
-						
-							<g:sortableColumn property="passwordHash" title="${message(code: 'user.passwordHash.label', default: 'Password Hash')}" />
-						
-							<g:sortableColumn property="passwordSalt" title="${message(code: 'user.passwordSalt.label', default: 'Password Salt')}" />
 						
 							<g:sortableColumn property="dateCreated" title="${message(code: 'user.dateCreated.label', default: 'Date Created')}" />
 						
@@ -39,10 +34,6 @@
 						<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 						
 							<td><g:link action="show" id="${userInstance.id}">${fieldValue(bean: userInstance, field: "username")}</g:link></td>
-						
-							<td>${fieldValue(bean: userInstance, field: "passwordHash")}</td>
-						
-							<td>${fieldValue(bean: userInstance, field: "passwordSalt")}</td>
 						
 							<td><g:formatDate date="${userInstance.dateCreated}" /></td>
 						
